@@ -1,6 +1,6 @@
-for python -install python 3  and pip   
+for python install python 3  and pip   
 
-run fine_tune.py for training the model ---command:python fine_tune.py4
+run fine_tune.py for training the model ---command:python fine_tune.py
 
 go to install all the python dependency in terminal using pip
  
