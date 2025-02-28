@@ -8,31 +8,31 @@ tags:
 - loss:CosineSimilarityLoss
 base_model: sentence-transformers/all-MiniLM-L6-v2
 widget:
-- source_sentence: Victoria
+- source_sentence: Eugene
   sentences:
-  - Rick
-  - Benny
-  - Tori
-- source_sentence: Harold
+  - Izzy
+  - Missy
+  - Gene
+- source_sentence: Michael
   sentences:
-  - Dom
-  - Dan
-  - Harry
-- source_sentence: Bernard
+  - Alex
+  - Joey
+  - Mike
+- source_sentence: Isabella
   sentences:
-  - Bran
-  - Drew
-  - Bernie
-- source_sentence: Daniel
+  - Ollie
+  - Debbie
+  - Bella
+- source_sentence: Annabelle
   sentences:
-  - Will
-  - Danny
-  - Nico
-- source_sentence: Dominic
+  - Sammy
+  - Anna
+  - Steph
+- source_sentence: Diane
   sentences:
-  - Jerry
-  - Xander
-  - Dom
+  - Tommy
+  - Matt
+  - Diana
 pipeline_tag: sentence-similarity
 library_name: sentence-transformers
 ---
@@ -87,9 +87,9 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer("sentence_transformers_model_id")
 # Run inference
 sentences = [
-    'Dominic',
-    'Dom',
-    'Xander',
+    'Diane',
+    'Diana',
+    'Matt',
 ]
 embeddings = model.encode(sentences)
 print(embeddings.shape)
@@ -151,11 +151,11 @@ You can finetune this model on your own dataset.
   | type    | string                                                                          | string                                                                          | float                                                           |
   | details | <ul><li>min: 3 tokens</li><li>mean: 3.01 tokens</li><li>max: 4 tokens</li></ul> | <ul><li>min: 3 tokens</li><li>mean: 3.02 tokens</li><li>max: 4 tokens</li></ul> | <ul><li>min: 0.7</li><li>mean: 0.83</li><li>max: 0.94</li></ul> |
 * Samples:
-  | sentence_0             | sentence_1          | label             |
-  |:-----------------------|:--------------------|:------------------|
-  | <code>Gabrielle</code> | <code>Gabby</code>  | <code>0.83</code> |
-  | <code>Catherine</code> | <code>Cathy</code>  | <code>0.81</code> |
-  | <code>Deborah</code>   | <code>Debbie</code> | <code>0.86</code> |
+  | sentence_0             | sentence_1         | label             |
+  |:-----------------------|:-------------------|:------------------|
+  | <code>Annabelle</code> | <code>Anna</code>  | <code>0.9</code>  |
+  | <code>Kenneth</code>   | <code>Kenny</code> | <code>0.82</code> |
+  | <code>Thomas</code>    | <code>Tom</code>   | <code>0.9</code>  |
 * Loss: [<code>CosineSimilarityLoss</code>](https://sbert.net/docs/package_reference/sentence_transformer/losses.html#cosinesimilarityloss) with these parameters:
   ```json
   {
