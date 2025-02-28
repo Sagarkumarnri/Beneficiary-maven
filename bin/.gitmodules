@@ -1,0 +1,3 @@
+[submodule "local_model"]
+	path = local_model
+	url = https://huggingface.co/sentence-transformers/paraphrase-MiniLM-L6-v2

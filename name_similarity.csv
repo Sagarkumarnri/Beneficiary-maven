@@ -1,17 +1,17 @@
 Name1,Name2,Similarity
 John,Jon,0.95
-Michael,Mike,0.90
+Michael,Mike,0.9
 Rachel,Raquel,0.85
 Catherine,Katherine,0.88
 Steven,Stephen,0.92
 Ann,Anne,0.93
 Robert,Bob,0.89
 William,Will,0.87
-Chris,Kristopher,0.80
+Chris,Kristopher,0.8
 Sarah,Sara,0.94
 Jessica,Jessie,0.85
 Mark,Marc,0.82
-Daniel,Danielle,0.60
+Daniel,Danielle,0.6
 Erik,Eric,0.78
 Tom,Thomas,0.76
 Emily,Emma,0.55
@@ -23,182 +23,1773 @@ Sophia,Sophie,0.42
 David,Devin,0.39
 Ava,Eva,0.37
 Tyler,Taylor,0.35
-Brianna,Brian,0.30
+Brianna,Brian,0.3
 Kevin,Kelvin,0.28
 Jason,Jaxon,0.25
-Michael,Olivia,0.10
+Michael,Olivia,0.1
 David,Jackson,0.05
-Sophia,Olivia,0.00
-Liam,Emma,0.00
-Ethan,Ava,0.00
-Jacob,Emily,0.00
-Daniel,Isabella,0.00
-Alexander,James,0.00
-Matthew,Charlotte,0.00
-Lucas,Madison,0.00
-Henry,Evelyn,0.00
-John,Samantha,0.0
-Michael,Olivia,0.0
-David,Emma,0.0
-Sophia,James,0.0
-Daniel,Isabella,0.0
-Alexander,Charlotte,0.0
-Matthew,Madison,0.0
-Lucas,Evelyn,0.0
-Henry,Abigail,0.0
-Joseph,Harper,0.0
-Samuel,Scarlett,0.0
-Sebastian,Eleanor,0.0
-Gabriel,Elizabeth,0.0
-Carter,Amelia,0.0
-Owen,Chloe,0.0
-Wyatt,Lily,0.0
-Julian,Aubrey,0.0
-Hudson,Natalie,0.0
-Jack,Grace,0.0
-Levi,Zoe,0.0
-Isaac,Stella,0.0
-Grayson,Violet,0.0
-Leo,Lillian,0.0
-Lincoln,Hannah,0.0
-Oliver,Lucy,0.0
-Theodore,Ellie,0.0
-Aaron,Mila,0.0
-Ryan,Nora,0.0
-Caleb,Skylar,0.0
-Nathan,Leah,0.0
-Hunter,Addison,0.0
-Eli,Savannah,0.0
-Landon,Brooklyn,0.0
-Jonathan,Victoria,0.0
-Christian,Hazel,0.0
-Adrian,Aria,0.0
-Cameron,Aurora,0.0
-Thomas,Penelope,0.0
-Jordan,Sadie,0.0
-Nicholas,Josephine,0.0
-Evan,Allison,0.0
-Connor,Samantha,0.0
-Jeremiah,Autumn,0.0
-Angel,Piper,0.0
-Brayden,Clara,0.0
-Ian,Ruby,0.0
-Dominic,Eva,0.0
-Adam,Serenity,0.0
-Parker,Willow,0.0
-Jaxon,Eliana,0.0
-Jose,Kennedy,0.0
-Nathaniel,Ariana,0.0
-Tyler,Lydia,0.0
-Zachary,Delilah,0.0
-Kevin,Nevaeh,0.0
-Mason,Sophie,0.0
-Dylan,Caroline,0.0
-Anthony,Genesis,0.0
-Jason,Alyssa,0.0
-Xavier,Isla,0.0
-Miles,Melanie,0.0
-Easton,Naomi,0.0
-Cooper,Katherine,0.0
-Brody,Athena,0.0
-Colton,Brielle,0.0
-Brandon,Kaylee,0.0
-Asher,Cecilia,0.0
-Kai,Iris,0.0
-Juan,Hadley,0.0
-Chase,Marley,0.0
-Diego,Adeline,0.0
-Alex,Eliza,0.0
-Santiago,June,0.0
-Max,Freya,0.0
-Eric,Sienna,0.0
-Elias,Alina,0.0
-Tristan,Daisy,0.0
-Gavin,Josie,0.0
-Victor,Makenna,0.0
-Derek,Reese,0.0
-Luca,Amy,0.0
-George,Fiona,0.0
-Dean,Angela,0.0
-Andre,Cali,0.0
-Malachi,Elise,0.0
-Harrison,Noelle,0.0
-Weston,Emersyn,0.0
-Simon,Maggie,0.0
-Jake,Harley,0.0
-Bradley,Tessa,0.0
-Aaron,Madeline,0.0
-Brandon,Julia,0.0
-Caleb,Clara,0.0
-Damian,Sadie,0.0
-Ethan,Lauren,0.0
-Finn,Kaitlyn,0.0
-George,Miranda,0.0
-Hunter,Isabelle,0.0
-Isaiah,Melody,0.0
-Jacob,Catherine,0.0
-Kevin,Lucia,0.0
-Landon,Elliana,0.0
-Mason,Daphne,0.0
-Nathan,Kendra,0.0
-Owen,Fiona,0.0
-Patrick,Brianna,0.0
-Quentin,Lacey,0.0
-Ryan,Sienna,0.0
-Samuel,Natalia,0.0
-Travis,Ruby,0.0
-Victor,Anastasia,0.0
-Wesley,Valerie,0.0
-Xavier,Tessa,0.0
-Zachary,Alison,0.0
-Adam,Marina,0.0
-Benjamin,Danica,0.0
-Cameron,Kyla,0.0
-Derek,Arielle,0.0
-Edward,Raelyn,0.0
-Felix,Elisa,0.0
-Gideon,Angela,0.0
-Harrison,Estelle,0.0
-Ian,Celine,0.0
-Jason,Kiera,0.0
-Kyle,Gianna,0.0
-Liam,April,0.0
-Miles,Athena,0.0
-Nolan,Daniella,0.0
-Oscar,Hallie,0.0
-Preston,Lilian,0.0
-Reed,Nina,0.0
-Shane,Tiana,0.0
-Tanner,Vivienne,0.0
-Ulysses,Serena,0.0
-Vance,Ellen,0.0
-Wyatt,Amanda,0.0
-Xander,Jillian,0.0
-Yusuf,Lorelei,0.0
-Zane,Monica,0.0
-Alan,Genevieve,0.0
-Brody,Heidi,0.0
-Connor,Bethany,0.0
-Declan,Camila,0.0
-Elliot,Maeve,0.0
-Franklin,Avery,0.0
-Grayson,Holly,0.0
-Hudson,Leilani,0.0
-Isaac,Selena,0.0
-Jeremiah,Naomi,0.0
-Keith,Dahlia,0.0
-Leonard,Joanna,0.0
-Mitchell,Cassidy,0.0
-Nicolas,Allison,0.0
-Omar,Evie,0.0
-Paul,Esme,0.0
-Quincy,Rosalie,0.0
-Ronan,Delaney,0.0
-Silas,Harley,0.0
-Timothy,Carmen,0.0
-Ulrich,Leslie,0.0
-Vince,Marie,0.0
-Walter,Jade,0.0
-Xeno,Kayla,0.0
-Yahir,Adalyn,0.0
+Sophia,Olivia,0
+Liam,Emma,0
+Ethan,Ava,0
+Jacob,Emily,0
+Daniel,Isabella,0
+Alexander,James,0
+Matthew,Charlotte,0
+Lucas,Madison,0
+Henry,Evelyn,0
+John,Samantha,0
+Michael,Olivia,0
+David,Emma,0
+Sophia,James,0
+Daniel,Isabella,0
+Alexander,Charlotte,0
+Matthew,Madison,0
+Lucas,Evelyn,0
+Henry,Abigail,0
+Joseph,Harper,0
+Samuel,Scarlett,0
+Sebastian,Eleanor,0
+Gabriel,Elizabeth,0
+Carter,Amelia,0
+Owen,Chloe,0
+Wyatt,Lily,0
+Julian,Aubrey,0
+Hudson,Natalie,0
+Jack,Grace,0
+Levi,Zoe,0
+Isaac,Stella,0
+Grayson,Violet,0
+Leo,Lillian,0
+Lincoln,Hannah,0
+Oliver,Lucy,0
+Theodore,Ellie,0
+Aaron,Mila,0
+Ryan,Nora,0
+Caleb,Skylar,0
+Nathan,Leah,0
+Hunter,Addison,0
+Eli,Savannah,0
+Landon,Brooklyn,0
+Jonathan,Victoria,0
+Christian,Hazel,0
+Adrian,Aria,0
+Cameron,Aurora,0
+Thomas,Penelope,0
+Jordan,Sadie,0
+Nicholas,Josephine,0
+Evan,Allison,0
+Connor,Samantha,0
+Jeremiah,Autumn,0
+Angel,Piper,0
+Brayden,Clara,0
+Ian,Ruby,0
+Dominic,Eva,0
+Adam,Serenity,0
+Parker,Willow,0
+Jaxon,Eliana,0
+Jose,Kennedy,0
+Nathaniel,Ariana,0
+Tyler,Lydia,0
+Zachary,Delilah,0
+Kevin,Nevaeh,0
+Mason,Sophie,0
+Dylan,Caroline,0
+Anthony,Genesis,0
+Jason,Alyssa,0
+Xavier,Isla,0
+Miles,Melanie,0
+Easton,Naomi,0
+Cooper,Katherine,0
+Brody,Athena,0
+Colton,Brielle,0
+Brandon,Kaylee,0
+Asher,Cecilia,0
+Kai,Iris,0
+Juan,Hadley,0
+Chase,Marley,0
+Diego,Adeline,0
+Alex,Eliza,0
+Santiago,June,0
+Max,Freya,0
+Eric,Sienna,0
+Elias,Alina,0
+Tristan,Daisy,0
+Gavin,Josie,0
+Victor,Makenna,0
+Derek,Reese,0
+Luca,Amy,0
+George,Fiona,0
+Dean,Angela,0
+Andre,Cali,0
+Malachi,Elise,0
+Harrison,Noelle,0
+Weston,Emersyn,0
+Simon,Maggie,0
+Jake,Harley,0
+Bradley,Tessa,0
+Aaron,Madeline,0
+Brandon,Julia,0
+Caleb,Clara,0
+Damian,Sadie,0
+Ethan,Lauren,0
+Finn,Kaitlyn,0
+George,Miranda,0
+Hunter,Isabelle,0
+Isaiah,Melody,0
+Jacob,Catherine,0
+Kevin,Lucia,0
+Landon,Elliana,0
+Mason,Daphne,0
+Nathan,Kendra,0
+Owen,Fiona,0
+Patrick,Brianna,0
+Quentin,Lacey,0
+Ryan,Sienna,0
+Samuel,Natalia,0
+Travis,Ruby,0
+Victor,Anastasia,0
+Wesley,Valerie,0
+Xavier,Tessa,0
+Zachary,Alison,0
+Adam,Marina,0
+Benjamin,Danica,0
+Cameron,Kyla,0
+Derek,Arielle,0
+Edward,Raelyn,0
+Felix,Elisa,0
+Gideon,Angela,0
+Harrison,Estelle,0
+Ian,Celine,0
+Jason,Kiera,0
+Kyle,Gianna,0
+Liam,April,0
+Miles,Athena,0
+Nolan,Daniella,0
+Oscar,Hallie,0
+Preston,Lilian,0
+Reed,Nina,0
+Shane,Tiana,0
+Tanner,Vivienne,0
+Ulysses,Serena,0
+Vance,Ellen,0
+Wyatt,Amanda,0
+Xander,Jillian,0
+Yusuf,Lorelei,0
+Zane,Monica,0
+Alan,Genevieve,0
+Brody,Heidi,0
+Connor,Bethany,0
+Declan,Camila,0
+Elliot,Maeve,0
+Franklin,Avery,0
+Grayson,Holly,0
+Hudson,Leilani,0
+Isaac,Selena,0
+Jeremiah,Naomi,0
+Keith,Dahlia,0
+Leonard,Joanna,0
+Mitchell,Cassidy,0
+Nicolas,Allison,0
+Omar,Evie,0
+Paul,Esme,0
+Quincy,Rosalie,0
+Ronan,Delaney,0
+Silas,Harley,0
+Timothy,Carmen,0
+Ulrich,Leslie,0
+Vince,Marie,0
+Walter,Jade,0
+Xeno,Kayla,0
+Yahir,Adalyn,0
+Amit,Ananya,0
+Rahul,Priya,0
+Vikram,Meera,0
+Rohit,Kavya,0
+Sandeep,Ishita,0
+Manoj,Tanvi,0
+Deepak,Nisha,0
+Karthik,Riya,0
+Ajay,Simran,0
+Harish,Aarti,0
+Rajesh,Neha,0
+Suresh,Swati,0
+Abhishek,Sneha,0
+Naveen,Trisha,0
+Varun,Sonia,0
+Prakash,Pooja,0
+Ravi,Shreya,0
+Sunil,Divya,0
+Gaurav,Monika,0
+Vinod,Sheetal,0
+Tarun,Payal,0
+Mahesh,Jhanvi,0
+Anil,Aparna,0
+Arvind,Shraddha,0
+Bharat,Komal,0
+Yogesh,Nandini,0
+Dev,Akanksha,0
+Ashwin,Malini,0
+Nitin,Vaishali,0
+Suraj,Rekha,0
+Kunal,Rashmi,0
+Rajiv,Supriya,0
+Alok,Bhavana,0
+Shankar,Seema,0
+Bhaskar,Anjali,0
+Lokesh,Harini,0
+Kapil,Chitra,0
+Sachin,Deepti,0
+Ramesh,Lavanya,0
+Shiv,Manisha,0
+Jagdeep,Geeta,0
+Mohan,Sunita,0
+Pankaj,Sushmita,0
+Balaji,Kusum,0
+Keshav,Indira,0
+Harsha,Alka,0
+Dinesh,Urmila,0
+Raghav,Amrita,0
+Shubham,Varsha,0
+Jitendra,Sarita,0
+Uday,Megha,0
+Vishal,Radha,0
+Tejas,Smita,0
+Devendra,Shalini,0
+Amit,Pooja,0
+Rahul,Meera,0
+Vikram,Ananya,0
+Rohit,Kavya,0
+Sandeep,Swati,0
+Manoj,Tanvi,0
+Deepak,Nisha,0
+Karthik,Riya,0
+Ajay,Simran,0
+Harish,Aarti,0
+Rajesh,Neha,0
+Suresh,Divya,0
+Abhishek,Sneha,0
+Naveen,Trisha,0
+Varun,Sonia,0
+Prakash,Payal,0
+Ravi,Sheetal,0
+Sunil,Jhanvi,0
+Gaurav,Aparna,0
+Vinod,Shraddha,0
+Tarun,Komal,0
+Mahesh,Nandini,0
+Anil,Akanksha,0
+Arvind,Malini,0
+Bharat,Vaishali,0
+Yogesh,Rekha,0
+Dev,Rashmi,0
+Ashwin,Supriya,0
+Nitin,Bhavana,0
+Suraj,Seema,0
+Kunal,Anjali,0
+Rajiv,Harini,0
+Alok,Chitra,0
+Shankar,Deepti,0
+Bhaskar,Lavanya,0
+Lokesh,Manisha,0
+Kapil,Geeta,0
+Sachin,Sunita,0
+Ramesh,Sushmita,0
+Shiv,Kusum,0
+Jagdeep,Indira,0
+Mohan,Alka,0
+Pankaj,Urmila,0
+Balaji,Amrita,0
+Keshav,Varsha,0
+Harsha,Sarita,0
+Dinesh,Megha,0
+Raghav,Radha,0
+Shubham,Smita,0
+Jitendra,Shalini,0
+Uday,Parvati,0
+Vishal,Kiran,0
+Tejas,Neelam,0
+Devendra,Gayatri,0
+Samar,Chandni,0
+Raghunath,Saanvi,0
+Madhav,Ankita,0
+Satyam,Roshni,0
+Jagannath,Tisha,0
+Ravindra,Avantika,0
+Sudhir,Pranavi,0
+Manish,Yamini,0
+Vijay,Anamika,0
+Prem,Vaibhavi,0
+Chetan,Asmita,0
+Jayant,Sharvani,0
+Rajendra,Mrunal,0
+Omkar,Bhavya,0
+Sharad,Indu,0
+Navin,Sarvani,0
+Govind,Ritika,0
+Suhas,Vandana,0
+Jagdish,Nikita,0
+Anup,Kajal,0
+Bipin,Kalyani,0
+Naresh,Priyanka,0
+Vinay,Lata,0
+Rishi,Bandita,0
+Sameer,Aditi,0
+Aniket,Rupali,0
+Mayank,Preeti,0
+Sanjay,Tanisha,0
+Hemant,Sudeshna,0
+Abhay,Krutika,0
+Kiran,Darshana,0
+Ganesh,Harshita,0
+Ruturaj,Shanvika,0
+Santosh,Rajashree,0
+Yash,Deepali,0
+sagar,rahul,0
+ jacob,rahul,0
+rahul ,jacob,0
+rahl,jacob,0
+Amit,Priyanka,0.0
+Rahul,Deepa,0.0
+Vikram,Radhika,0.0
+Rohit,Sangeeta,0.0
+Sandeep,Nikita,0.0
+Manoj,Asmita,0.0
+Deepak,Sarita,0.0
+Karthik,Vaishali,0.0
+Ajay,Sunita,0.0
+Harish,Aparna,0.0
+Rajesh,Rupali,0.0
+Suresh,Kusum,0.0
+Abhishek,Smita,0.0
+Naveen,Chhaya,0.0
+Varun,Lavanya,0.0
+Prakash,Komal,0.0
+Ravi,Megha,0.0
+Sunil,Roshni,0.0
+Gaurav,Jhanvi,0.0
+Vinod,Trisha,0.0
+Tarun,Poonam,0.0
+Mahesh,Neelam,0.0
+Anil,Sharvani,0.0
+Arvind,Nandini,0.0
+Bharat,Amrita,0.0
+Yogesh,Akanksha,0.0
+Dev,Harshita,0.0
+Ashwin,Alka,0.0
+Nitin,Shraddha,0.0
+Suraj,Shalini,0.0
+Kunal,Ananya,0.0
+Rajiv,Deepti,0.0
+Alok,Radha,0.0
+Shankar,Bhavya,0.0
+Bhaskar,Pranavi,0.0
+Lokesh,Rekha,0.0
+Kapil,Indu,0.0
+Sachin,Supriya,0.0
+Ramesh,Sharanya,0.0
+Shiv,Ankita,0.0
+Jagdeep,Krutika,0.0
+Mohan,Manisha,0.0
+Pankaj,Tanvi,0.0
+Balaji,Geeta,0.0
+Keshav,Ritika,0.0
+Harsha,Sangeeta,0.0
+Dinesh,Gayatri,0.0
+Raghav,Tisha,0.0
+Shubham,Bandita,0.0
+Jitendra,Avantika,0.0
+Uday,Yamini,0.0
+Vishal,Sarvani,0.0
+Tejas,Saanvi,0.0
+Devendra,Parvati,0.0
+Samar,Chandni,0.0
+Raghunath,Rashmi,0.0
+Madhav,Aditi,0.0
+Satyam,Anamika,0.0
+Jagannath,Meera,0.0
+Ravindra,Neha,0.0
+Sudhir,Sneha,0.0
+Manish,Swati,0.0
+Vijay,Kiran,0.0
+Prem,Payal,0.0
+Chetan,Sheetal,0.0
+Jayant,Sonia,0.0
+Rajendra,Monika,0.0
+Omkar,Priya,0.0
+Sharad,Divya,0.0
+Navin,Chitra,0.0
+Govind,Urmila,0.0
+Suhas,Aarti,0.0
+Jagdish,Nisha,0.0
+Anup,Seema,0.0
+Bipin,Ravina,0.0
+Naresh,Simran,0.0
+Vinay,Ashwini,0.0
+Rishi,Pallavi,0.0
+Sameer,Harini,0.0
+Aniket,Lata,0.0
+Mayank,Anusha,0.0
+Sanjay,Suvarna,0.0
+Hemant,Mrunal,0.0
+Abhay,Kajal,0.0
+Kiran,Preeti,0.0
+Ganesh,Sunanda,0.0
+Ruturaj,Smruti,0.0
+Santosh,Sharada,0.0
+Yash,Vandana,0.0
+Nandan,Karishma,0.0
+Mangesh,Devika,0.0
+Ashok,Anagha,0.0
+Pranav,Priyanka,0.0
+Vikas,Trupti,0.0
+Arjun,Shruti,0.0
+Mr. Sagar Patra,Sagar Patra,1.0
+Mr. Sagar Patra,Sagar Patra Pvt Ltd,1.0
+Dr. Amit Sharma,Amit Sharma,1.0
+Amit Sharma,Amit Sharma Pvt Ltd,1.0
+Miss Priya Mehta,Priya Mehta,1.0
+Priya Mehta,Priya Mehta Enterprises,1.0
+Er. Rohit Kumar,Rohit Kumar,1.0
+Rohit Kumar,Rohit Kumar Ltd,1.0
+Prof. Anil Verma,Anil Verma,1.0
+Anil Verma,Anil Verma & Co.,1.0
+Shri Rajesh Yadav,Rajesh Yadav,1.0
+Rajesh Yadav,Rajesh Yadav & Sons,1.0
+Mrs. Sunita Reddy,Sunita Reddy,1.0
+Sunita Reddy,Sunita Reddy Textiles,1.0
+CA Manish Gupta,Manish Gupta,1.0
+Manish Gupta,Manish Gupta Associates,1.0
+Adv. Pankaj Mishra,Pankaj Mishra,1.0
+Pankaj Mishra,Pankaj Mishra Law Firm,1.0
+Mr. Ramesh Chandra,Ramesh Chandra,1.0
+Ramesh Chandra,Ramesh Chandra Constructions,1.0
+Dr. Swati Kulkarni,Swati Kulkarni,1.0
+Swati Kulkarni,Swati Kulkarni Ltd,1.0
+Engr. Karthik Rao,Karthik Rao,1.0
+Karthik Rao,Karthik Rao Pvt Ltd,1.0
+Shri Nitin Desai,Nitin Desai,1.0
+Nitin Desai,Nitin Desai & Partners,1.0
+Miss Radhika Kapoor,Radhika Kapoor,1.0
+Radhika Kapoor,Radhika Kapoor Pvt Ltd,1.0
+MD Harsh Agarwal,Harsh Agarwal,1.0
+Harsh Agarwal,Harsh Agarwal Group,1.0
+CEO Akash Bansal,Akash Bansal,1.0
+Akash Bansal,Akash Bansal Enterprises,1.0
+Smt. Meera Joshi,Meera Joshi,1.0
+Meera Joshi,Meera Joshi Textiles,1.0
+Guru Rajiv Shankar,Rajiv Shankar,1.0
+Rajiv Shankar,Rajiv Shankar & Co.,1.0
+Sir Pranav Saxena,Pranav Saxena,1.0
+Pranav Saxena,Pranav Saxena Innovations,1.0
+Babu Dinesh Nair,Dinesh Nair,1.0
+Dinesh Nair,Dinesh Nair Pvt Ltd,1.0
+Er. Ajay Menon,Ajay Menon,1.0
+Ajay Menon,Ajay Menon Associates,1.0
+Advocate Kunal Jain,Kunal Jain,1.0
+Kunal Jain,Kunal Jain & Associates,1.0
+Dr. Sneha Sharma,Sneha Sharma,1.0
+Sneha Sharma,Sneha Sharma Pvt Ltd,1.0
+CA Raghav Verma,Raghav Verma,1.0
+Raghav Verma,Raghav Verma Consulting,1.0
+Shri Manoj Tiwari,Manoj Tiwari,1.0
+Manoj Tiwari,Manoj Tiwari Productions,1.0
+Mr. Arvind Kumar,Arvind Kumar,1.0
+Arvind Kumar,Arvind Kumar Pvt Ltd,1.0
+Arvind Kumar,Arvind Kumar & Co.,1.0
+Dr. Neha Rajput,Neha Rajput,1.0
+Neha Rajput,Neha Rajput & Associates,1.0
+Neha Rajput,Neha Rajput Pvt Ltd,1.0
+Miss Anjali Desai,Anjali Desai,1.0
+Anjali Desai,Anjali Desai Enterprises,1.0
+Anjali Desai,Anjali Desai Pvt Ltd,1.0
+CA Sandeep Chawla,Sandeep Chawla,1.0
+Sandeep Chawla,Sandeep Chawla & Sons,1.0
+Sandeep Chawla,Sandeep Chawla Pvt Ltd,1.0
+Engr. Mohan Iyer,Mohan Iyer,1.0
+Mohan Iyer,Mohan Iyer Ltd,1.0
+Mohan Iyer,Mohan Iyer & Co.,1.0
+Adv. Rakesh Kapoor,Rakesh Kapoor,1.0
+Rakesh Kapoor,Rakesh Kapoor Law Firm,1.0
+Rakesh Kapoor,Rakesh Kapoor & Partners,1.0
+Prof. Swati Sharma,Swati Sharma,1.0
+Swati Sharma,Swati Sharma & Co.,1.0
+Swati Sharma,Swati Sharma Consultants,1.0
+Shri Nitin Verma,Nitin Verma,1.0
+Nitin Verma,Nitin Verma & Sons,1.0
+Nitin Verma,Nitin Verma Enterprises,1.0
+Mrs. Rina Pillai,Rina Pillai,1.0
+Rina Pillai,Rina Pillai Textiles,1.0
+Rina Pillai,Rina Pillai & Co.,1.0
+MD Aditya Sinha,Aditya Sinha,1.0
+Aditya Sinha,Aditya Sinha Group,1.0
+Aditya Sinha,Aditya Sinha & Co.,1.0
+CEO Naveen Bansal,Naveen Bansal,1.0
+Naveen Bansal,Naveen Bansal Enterprises,1.0
+Naveen Bansal,Naveen Bansal Pvt Ltd,1.0
+Smt. Pooja Nair,Pooja Nair,1.0
+Pooja Nair,Pooja Nair Textiles,1.0
+Pooja Nair,Pooja Nair & Associates,1.0
+Guru Rohan Malhotra,Rohan Malhotra,1.0
+Rohan Malhotra,Rohan Malhotra & Co.,1.0
+Rohan Malhotra,Rohan Malhotra Pvt Ltd,1.0
+Sir Yash Saxena,Yash Saxena,1.0
+Yash Saxena,Yash Saxena Innovations,1.0
+Yash Saxena,Yash Saxena Enterprises,1.0
+Babu Aniket Nair,Aniket Nair,1.0
+Aniket Nair,Aniket Nair Pvt Ltd,1.0
+Aniket Nair,Aniket Nair & Co.,1.0
+Er. Vishal Menon,Vishal Menon,1.0
+Vishal Menon,Vishal Menon Associates,1.0
+Vishal Menon,Vishal Menon Enterprises,1.0
+Advocate Sumit Jain,Sumit Jain,1.0
+Sumit Jain,Sumit Jain & Associates,1.0
+Sumit Jain,Sumit Jain Law Firm,1.0
+Dr. Radhika Sharma,Radhika Sharma,1.0
+Radhika Sharma,Radhika Sharma Pvt Ltd,1.0
+Radhika Sharma,Radhika Sharma Consultants,1.0
+CA Kunal Verma,Kunal Verma,1.0
+Kunal Verma,Kunal Verma Consulting,1.0
+Kunal Verma,Kunal Verma Pvt Ltd,1.0
+Shri Tarun Tiwari,Tarun Tiwari,1.0
+Tarun Tiwari,Tarun Tiwari Productions,1.0
+Tarun Tiwari,Tarun Tiwari Enterprises,1.0
+Shri Rajat Choudhary,Rajat Choudhary,1.0
+Rajat Choudhary,Rajat Choudhary Pvt Ltd,1.0
+Rajat Choudhary,Rajat Choudhary & Sons,1.0
+Dr. Nilesh Malhotra,Nilesh Malhotra,1.0
+Nilesh Malhotra,Nilesh Malhotra Pvt Ltd,1.0
+Nilesh Malhotra,Nilesh Malhotra & Associates,1.0
+Shri Sanjay Nambiar,Sanjay Nambiar,1.0
+Sanjay Nambiar,Sanjay Nambiar Textiles,1.0
+Sanjay Nambiar,Sanjay Nambiar Enterprises,1.0
+Er. Vikram Bhatia,Vikram Bhatia,1.0
+Vikram Bhatia,Vikram Bhatia Pvt Ltd,1.0
+Vikram Bhatia,Vikram Bhatia & Co.,1.0
+Miss Nandini Saxena,Nandini Saxena,1.0
+Nandini Saxena,Nandini Saxena & Partners,1.0
+Nandini Saxena,Nandini Saxena Consultants,1.0
+Mr. Rajesh Khanna,Rajesh Khanna,1.0
+Rajesh Khanna,Rajesh Khanna Pvt Ltd,1.0
+Rajesh Khanna,Rajesh Khanna & Sons,1.0
+Adv. Mohit Deshmukh,Mohit Deshmukh,1.0
+Mohit Deshmukh,Mohit Deshmukh Law Firm,1.0
+Mohit Deshmukh,Mohit Deshmukh & Co.,1.0
+MD Neeraj Trivedi,Neeraj Trivedi,1.0
+Neeraj Trivedi,Neeraj Trivedi Pvt Ltd,1.0
+Neeraj Trivedi,Neeraj Trivedi & Associates,1.0
+Guru Akash Kapoor,Akash Kapoor,1.0
+Akash Kapoor,Akash Kapoor & Co.,1.0
+Akash Kapoor,Akash Kapoor Enterprises,1.0
+Smt. Radha Iyer,Radha Iyer,1.0
+Radha Iyer,Radha Iyer Textiles,1.0
+Radha Iyer,Radha Iyer Pvt Ltd,1.0
+Dr. Sanjeev Mehta,Sanjeev Mehta,1.0
+Sanjeev Mehta,Sanjeev Mehta & Co.,1.0
+Sanjeev Mehta,Sanjeev Mehta Pvt Ltd,1.0
+Mr. John Smith,John Smith,1.0
+John Smith,John Smith Ltd,1.0
+John Smith,John Smith & Co.,1.0
+Dr. Emily Johnson,Emily Johnson,1.0
+Emily Johnson,Emily Johnson Consulting,1.0
+Emily Johnson,Emily Johnson & Partners,1.0
+Miss Sophia Williams,Sophia Williams,1.0
+Sophia Williams,Sophia Williams Enterprises,1.0
+Sophia Williams,Sophia Williams Ltd,1.0
+CA Robert Brown,Robert Brown,1.0
+Robert Brown,Robert Brown & Sons,1.0
+Robert Brown,Robert Brown Consulting,1.0
+Engr. Michael Garcia,Michael Garcia,1.0
+Michael Garcia,Michael Garcia Ltd,1.0
+Michael Garcia,Michael Garcia & Co.,1.0
+Adv. David Martinez,David Martinez,1.0
+David Martinez,David Martinez Law Firm,1.0
+David Martinez,David Martinez & Associates,1.0
+Prof. Olivia Anderson,Olivia Anderson,1.0
+Olivia Anderson,Olivia Anderson & Co.,1.0
+Olivia Anderson,Olivia Anderson Consultants,1.0
+Shri Thomas Wilson,Thomas Wilson,1.0
+Thomas Wilson,Thomas Wilson & Sons,1.0
+Thomas Wilson,Thomas Wilson Enterprises,1.0
+Mrs. Elizabeth Taylor,Elizabeth Taylor,1.0
+Elizabeth Taylor,Elizabeth Taylor Textiles,1.0
+Elizabeth Taylor,Elizabeth Taylor & Co.,1.0
+MD Daniel Thomas,Daniel Thomas,1.0
+Daniel Thomas,Daniel Thomas Group,1.0
+Daniel Thomas,Daniel Thomas & Co.,1.0
+CEO Charles White,Charles White,1.0
+Charles White,Charles White Enterprises,1.0
+Charles White,Charles White Ltd,1.0
+Smt. Hannah Harris,Hannah Harris,1.0
+Hannah Harris,Hannah Harris Textiles,1.0
+Hannah Harris,Hannah Harris & Associates,1.0
+Guru Benjamin Clark,Benjamin Clark,1.0
+Benjamin Clark,Benjamin Clark & Co.,1.0
+Benjamin Clark,Benjamin Clark Ltd,1.0
+Sir Matthew Lewis,Matthew Lewis,1.0
+Matthew Lewis,Matthew Lewis Innovations,1.0
+Matthew Lewis,Matthew Lewis Enterprises,1.0
+Babu Christopher Hall,Christopher Hall,1.0
+Christopher Hall,Christopher Hall Ltd,1.0
+Christopher Hall,Christopher Hall & Co.,1.0
+Er. William Allen,William Allen,1.0
+William Allen,William Allen Associates,1.0
+William Allen,William Allen Enterprises,1.0
+Advocate Andrew Young,Andrew Young,1.0
+Andrew Young,Andrew Young & Associates,1.0
+Andrew Young,Andrew Young Law Firm,1.0
+Dr. Jennifer King,Jennifer King,1.0
+Jennifer King,Jennifer King Ltd,1.0
+Jennifer King,Jennifer King Consultants,1.0
+CA Joseph Wright,Joseph Wright,1.0
+Joseph Wright,Joseph Wright Consulting,1.0
+Joseph Wright,Joseph Wright Ltd,1.0
+Shri Samuel Lopez,Samuel Lopez,1.0
+Samuel Lopez,Samuel Lopez Productions,1.0
+Samuel Lopez,Samuel Lopez Enterprises,1.0
+Shri Ryan Scott,Ryan Scott,1.0
+Ryan Scott,Ryan Scott Ltd,1.0
+Ryan Scott,Ryan Scott & Sons,1.0
+Dr. Anthony Adams,Anthony Adams,1.0
+Anthony Adams,Anthony Adams Ltd,1.0
+Anthony Adams,Anthony Adams & Associates,1.0
+Shri Jack Nelson,Jack Nelson,1.0
+Jack Nelson,Jack Nelson Textiles,1.0
+Jack Nelson,Jack Nelson Enterprises,1.0
+Er. Dylan Carter,Dylan Carter,1.0
+Dylan Carter,Dylan Carter Ltd,1.0
+Dylan Carter,Dylan Carter & Co.,1.0
+Miss Charlotte Mitchell,Charlotte Mitchell,1.0
+Charlotte Mitchell,Charlotte Mitchell & Partners,1.0
+Charlotte Mitchell,Charlotte Mitchell Consultants,1.0
+Mr. George Perez,George Perez,1.0
+George Perez,George Perez Ltd,1.0
+George Perez,George Perez & Sons,1.0
+Adv. Henry Roberts,Henry Roberts,1.0
+Henry Roberts,Henry Roberts Law Firm,1.0
+Henry Roberts,Henry Roberts & Co.,1.0
+MD Nathan Phillips,Nathan Phillips,1.0
+Nathan Phillips,Nathan Phillips Ltd,1.0
+Nathan Phillips,Nathan Phillips & Associates,1.0
+Guru Alexander Evans,Alexander Evans,1.0
+Alexander Evans,Alexander Evans & Co.,1.0
+Alexander Evans,Alexander Evans Enterprises,1.0
+Smt. Isabelle Rivera,Isabelle Rivera,1.0
+Isabelle Rivera,Isabelle Rivera Textiles,1.0
+Isabelle Rivera,Isabelle Rivera Ltd,1.0
+Dr. Richard Sanchez,Richard Sanchez,1.0
+Richard Sanchez,Richard Sanchez & Co.,1.0
+Richard Sanchez,Richard Sanchez Ltd,1.0
+Rahul,Rahul Sagar,0.25
+Amit,Amit Verma,0.80
+Rajesh,Rajesh Kumar,0.80
+Suresh,Suresh Raina,0.80
+Anil,Anil Kapoor,0.80
+Vikas,Vikas Gupta,0.80
+Deepak,Deepak Chawla,0.80
+Manoj,Manoj Tiwari,0.80
+Ashok,Ashok Mehta,0.80
+Vivek,Vivek Anand,0.80
+Sandeep,Sandeep Patil,0.80
+Ramesh,Ramesh Malhotra,0.80
+Santosh,Santosh Iyer,0.80
+Sunil,Sunil Shetty,0.80
+Pankaj,Pankaj Mishra,0.80
+Shyam,Shyam Sundar,0.80
+Mahesh,Mahesh Jha,0.80
+Ravi,Ravi Shastri,0.80
+Kapil,Kapil Dev,0.80
+Ajay,Ajay Chopra,0.80
+Tushar,Tushar Sharma,0.80
+Rohit,Rohit Shetty,0.80
+Kunal,Kunal Desai,0.80
+Akhil,Akhil Jain,0.80
+Sharad,Sharad Sharma,0.80
+Neeraj,Neeraj Chopra,0.80
+Harish,Harish Pandey,0.80
+Gaurav,Gaurav Singh,0.80
+Dinesh,Dinesh Rao,0.80
+Sagar,Sagar Sr.,0.70
+Sagar,Sagar Jr.,0.70
+Amit,Amit Sr.,0.70
+Amit,Amit Jr.,0.70
+Anil,Anil Sr.,0.70
+Anil,Anil Jr.,0.70
+Deepak,Deepak Sr.,0.70
+Deepak,Deepak Jr.,0.70
+Rajesh,Rajesh Sr.,0.70
+Rajesh,Rajesh Jr.,0.70
+Manoj,Manoj Sr.,0.70
+Manoj,Manoj Jr.,0.70
+Pankaj,Pankaj Sr.,0.70
+Pankaj,Pankaj Jr.,0.70
+Sandeep,Sandeep Sr.,0.70
+Sandeep,Sandeep Jr.,0.70
+Sunil,Sunil Sr.,0.70
+Sunil,Sunil Jr.,0.70
+Mahesh,Mahesh Sr.,0.70
+Mahesh,Mahesh Jr.,0.70
+Shyam,Shyam Sr.,0.70
+Shyam,Shyam Jr.,0.70
+Kapil,Kapil Sr.,0.70
+Kapil,Kapil Jr.,0.70
+Ajay,Ajay Sr.,0.70
+Ajay,Ajay Jr.,0.70
+Tushar,Tushar Sr.,0.70
+Tushar,Tushar Jr.,0.70
+Rohit,Rohit Sr.,0.70
+Rohit,Rohit Jr.,0.70
+Kunal,Kunal Sr.,0.70
+Kunal,Kunal Jr.,0.70
+Sharad,Sharad Sr.,0.70
+Sharad,Sharad Jr.,0.70
+Suresh,Suresh Sr.,0.70
+Suresh,Suresh Jr.,0.70
+Gaurav,Gaurav Sr.,0.70
+Gaurav,Gaurav Jr.,0.70
+Dinesh,Dinesh Sr.,0.70
+Dinesh,Dinesh Jr.,0.70
+Neeraj,Neeraj Sr.,0.70
+Neeraj,Neeraj Jr.,0.70
+Harish,Harish Sr.,0.70
+Harish,Harish Jr.,0.70
+Rahul,Rahul Gupta,0.80
+Vikas,Vikas Sharma,0.80
+Manoj,Manoj Verma,0.80
+Ajay,Ajay Nair,0.80
+Rohit,Rohit Sharma,0.80
+Sandeep,Sandeep Bhatia,0.80
+Sharad,Sharad Patel,0.80
+Kunal,Kunal Bhardwaj,0.80
+Dinesh,Dinesh Rao,0.80
+Neeraj,Neeraj Jain,0.80
+Gaurav,Gaurav Singh,0.80
+Mahesh,Mahesh Trivedi,0.80
+Shyam,Shyam Kumar,0.80
+Pankaj,Pankaj Desai,0.80
+Tushar,Tushar Yadav,0.80
+John,John Smith,0.80
+Michael,Michael Johnson,0.80
+Robert,Robert Brown,0.80
+David,David Davis,0.80
+James,James Miller,0.80
+William,William Wilson,0.80
+Richard,Richard Moore,0.80
+Joseph,Joseph Taylor,0.80
+Charles,Charles Anderson,0.80
+Thomas,Thomas Jackson,0.80
+Daniel,Daniel White,0.80
+Matthew,Matthew Harris,0.80
+Anthony,Anthony Martin,0.80
+Donald,Donald Thompson,0.80
+Mark,Mark Garcia,0.80
+Paul,Paul Martinez,0.80
+Steven,Steven Robinson,0.80
+Andrew,Andrew Clark,0.80
+Kenneth,Kenneth Rodriguez,0.80
+Joshua,Joshua Lewis,0.80
+Kevin,Kevin Lee,0.80
+Brian,Brian Walker,0.80
+George,George Hall,0.80
+Timothy,Timothy Allen,0.80
+Ryan,Ryan Young,0.80
+Jacob,Jacob King,0.80
+Gary,Gary Wright,0.80
+Nicholas,Nicholas Scott,0.80
+Eric,Eric Green,0.80
+Jonathan,Jonathan Adams,0.80
+Larry,Larry Baker,0.80
+Jeffrey,Jeffrey Gonzalez,0.80
+Frank,Frank Nelson,0.80
+Scott,Scott Carter,0.80
+Brandon,Brandon Mitchell,0.80
+Benjamin,Benjamin Perez,0.80
+Samuel,Samuel Roberts,0.80
+Gregory,Gregory Phillips,0.80
+Alexander,Alexander Evans,0.80
+Patrick,Patrick Turner,0.80
+Stephen,Stephen Torres,0.80
+Edward,Edward Parker,0.80
+Justin,Justin Collins,0.80
+Austin,Austin Edwards,0.80
+Jordan,Jordan Stewart,0.80
+Adam,Adam Sanchez,0.80
+Nathan,Nathan Morris,0.80
+Zachary,Zachary Rogers,0.80
+Jack,Jack Reed,0.80
+Kyle,Kyle Cook,0.80
+Aaron,Aaron Morgan,0.80
+John,John Jr.,0.70
+Michael,Michael Sr.,0.70
+Robert,Robert Jr.,0.70
+David,David Sr.,0.70
+James,James Jr.,0.70
+William,William Sr.,0.70
+Richard,Richard Jr.,0.70
+Joseph,Joseph Sr.,0.70
+Charles,Charles Jr.,0.70
+Thomas,Thomas Sr.,0.70
+Daniel,Daniel Jr.,0.70
+Matthew,Matthew Sr.,0.70
+Anthony,Anthony Jr.,0.70
+Donald,Donald Sr.,0.70
+Mark,Mark Jr.,0.70
+Paul,Paul Sr.,0.70
+Steven,Steven Jr.,0.70
+Andrew,Andrew Sr.,0.70
+Kenneth,Kenneth Jr.,0.70
+Joshua,Joshua Sr.,0.70
+Kevin,Kevin Jr.,0.70
+Brian,Brian Sr.,0.70
+George,George Jr.,0.70
+Timothy,Timothy Sr.,0.70
+Ryan,Ryan Jr.,0.70
+Jacob,Jacob Sr.,0.70
+Gary,Gary Jr.,0.70
+Nicholas,Nicholas Sr.,0.70
+Eric,Eric Jr.,0.70
+Jonathan,Jonathan Sr.,0.70
+Larry,Larry Jr.,0.70
+Jeffrey,Jeffrey Sr.,0.70
+Frank,Frank Jr.,0.70
+Scott,Scott Sr.,0.70
+Brandon,Brandon Jr.,0.70
+Benjamin,Benjamin Sr.,0.70
+Samuel,Samuel Jr.,0.70
+Gregory,Gregory Sr.,0.70
+Alexander,Alexander Jr.,0.70
+Patrick,Patrick Sr.,0.70
+Stephen,Stephen Jr.,0.70
+Edward,Edward Sr.,0.70
+Justin,Justin Jr.,0.70
+Austin,Austin Sr.,0.70
+Jordan,Jordan Jr.,0.70
+Adam,Adam Sr.,0.70
+Nathan,Nathan Jr.,0.70
+Zachary,Zachary Sr.,0.70
+Jack,Jack Jr.,0.70
+Kyle,Kyle Sr.,0.70
+Aaron,Aaron Jr.,0.70
+Michael,Michael Scott,0.80
+Robert,Robert De Niro,0.80
+David,David Beckham,0.80
+James,James Franco,0.80
+William,William Shakespeare,0.80
+Richard,Richard Branson,0.80
+Joseph,Joseph Stalin,0.80
+Charles,Charles Dickens,0.80
+Thomas,Thomas Edison,0.80
+Daniel,Daniel Craig,0.80
+Matthew,Matthew Perry,0.80
+Anthony,Anthony Hopkins,0.80
+Donald,Donald Trump,0.80
+Mark,Mark Zuckerberg,0.80
+Paul,Paul McCartney,0.80
+Steven,Steven Spielberg,0.80
+Andrew,Andrew Garfield,0.80
+Kenneth,Kenneth Branagh,0.80
+Joshua,Joshua Bell,0.80
+Kevin,Kevin Hart,0.80
+Brian,Brian May,0.80
+George,George Clooney,0.80
+Timothy,Timothy Dalton,0.80
+Ryan,Ryan Gosling,0.80
+Jacob,Jacob Elordi,0.80
+Gary,Gary Oldman,0.80
+Nicholas,Nicholas Cage,0.80
+Eric,Eric Clapton,0.80
+Jonathan,Jonathan Rhys Meyers,0.80
+Larry,Larry Page,0.80
+Jeffrey,Jeffrey Dean Morgan,0.80
+Frank,Frank Ocean,0.80
+Scott,Scott Eastwood,0.80
+Brandon,Brandon Lee,0.80
+Benjamin,Benjamin Franklin,0.80
+Samuel,Samuel L. Jackson,0.80
+Gregory,Gregory Peck,0.80
+Alexander,Alexander Hamilton,0.80
+Patrick,Patrick Stewart,0.80
+Stephen,Stephen King,0.80
+Edward,Edward Norton,0.80
+Justin,Justin Timberlake,0.80
+Austin,Austin Butler,0.80
+Jordan,Jordan Peele,0.80
+Adam,Adam Sandler,0.80
+Nathan,Nathan Fillion,0.80
+Zachary,Zachary Levi,0.80
+Jack,Jack Nicholson,0.80
+Kyle,Kyle Chandler,0.80
+Aaron,Aaron Paul,0.80
+John,Michael,0.20
+Robert,David,0.20
+James,Daniel,0.20
+William,Matthew,0.20
+Richard,Anthony,0.20
+Joseph,Donald,0.20
+Charles,Mark,0.20
+Thomas,Paul,0.20
+Daniel,Steven,0.20
+Matthew,Andrew,0.20
+Anthony,Kevin,0.20
+Donald,Brian,0.20
+Mark,George,0.20
+Paul,Timothy,0.20
+Steven,Ryan,0.20
+Andrew,Jacob,0.20
+Kenneth,Gary,0.20
+Joshua,Nicholas,0.20
+Kevin,Eric,0.20
+Brian,Jonathan,0.20
+George,Larry,0.20
+Timothy,Jeffrey,0.20
+Ryan,Frank,0.20
+Jacob,Scott,0.20
+Gary,Brandon,0.20
+Nicholas,Benjamin,0.20
+Eric,Samuel,0.20
+Jonathan,Gregory,0.20
+Larry,Alexander,0.20
+Jeffrey,Patrick,0.20
+Frank,Stephen,0.20
+Scott,Edward,0.20
+Brandon,Justin,0.20
+Benjamin,Austin,0.20
+Samuel,Jordan,0.20
+Gregory,Adam,0.20
+Alexander,Nathan,0.20
+Patrick,Zachary,0.20
+Stephen,Jack,0.20
+Edward,Kyle,0.20
+Justin,Aaron,0.20
+Michael Scott,Michael Smith,0.25
+David Beckham,David Warner,0.25
+James Franco,James Cameron,0.25
+William Shakespeare,William Wallace,0.25
+Richard Branson,Richard Gere,0.25
+Joseph Stalin,Joseph Gordon-Levitt,0.25
+Charles Dickens,Charles Darwin,0.25
+Thomas Edison,Thomas Shelby,0.25
+Daniel Craig,Daniel Radcliffe,0.25
+Matthew Perry,Matthew McConaughey,0.25
+Anil,Sunil,0.30
+Rajesh,Suresh,0.30
+Rahul,Anup,0.30
+Amit,Sumit,0.30
+Vikas,Vikram,0.30
+Prakash,Santosh,0.30
+Deepak,Dinesh,0.30
+Sanjay,Vijay,0.30
+Ravi,Rishi,0.30
+Ajay,Sujay,0.30
+Ashish,Avinash,0.30
+Kiran,Kishan,0.30
+Manoj,Manish,0.30
+Nikhil,Nitin,0.30
+Kunal,Kartikey,0.30
+Piyush,Parth,0.30
+Shivam,Shishir,0.30
+Harish,Himesh,0.30
+Tarun,Tejas,0.30
+Chetan,Chetas,0.30
+Saket,Sagar,0.30
+Naveen,Naresh,0.30
+Siddharth,Sachin,0.30
+Harsha,Hitesh,0.30
+Rahul Gupta,Rahul Verma,0.30
+Amit Kumar,Amit Sharma,0.30
+Vikas Mishra,Vikas Singh,0.30
+Ravi Yadav,Ravi Sharma,0.30
+Ajay Mehta,Ajay Joshi,0.30
+Nikhil Kapoor,Nikhil Sinha,0.30
+Kunal Choudhary,Kunal Saxena,0.30
+Manoj Tiwari,Manoj Gupta,0.30
+steve,john,0.0
+michael,robert,0.0
+andrew,jacob,0.0
+david,ethan,0.0
+thomas,henry,0.0
+charles,oliver,0.0
+daniel,alex,0.0
+nicholas,owen,0.0
+patrick,vincent,0.0
+scott,nathan,0.0
+frank,jason,0.0
+paul,george,0.0
+kevin,mark,0.0
+joseph,harry,0.0
+william,aaron,0.0
+ryan,adam,0.0
+james,justin,0.0
+brandon,arthur,0.0
+samuel,leo,0.0
+brian,luke,0.0
+tyler,elijah,0.0
+ethan,owen,0.0
+connor,sebastian,0.0
+jordan,chris,0.0
+jackson,dylan,0.0
+austin,bradley,0.0
+caleb,blake,0.0
+alexander,nathaniel,0.0
+eric,timothy,0.0
+shawn,patrick,0.0
+mitchell,zachary,0.0
+philip,trevor,0.0
+benjamin,ian,0.0
+logan,tyson,0.0
+ronald,leonard,0.0
+jared,christian,0.0
+victor,gerald,0.0
+jason,craig,0.0
+geoffrey,malcolm,0.0
+harrison,edward,0.0
+peter,bruce,0.0
+john,walter,0.0
+fredrick,lawrence,0.0
+matthew,donald,0.0
+richard,gregory,0.0
+robert,julian,0.0
+nicholas,alan,0.0
+steven,martin,0.0
+jeremy,clark,0.0
+paul,philip,0.0
+greg,stephen,0.0
+ralph,edwin,0.0
+harvey,joseph,0.0
+nathan,bruce,0.0
+leonard,calvin,0.0
+dennis,lawrence,0.0
+alfred,stuart,0.0
+terry,jordan,0.0
+randall,owen,0.0
+charlie,victor,0.0
+ian,walter,0.0
+jake,william,0.0
+anil,sagar,0.0
+rahul,vikas,0.0
+ramesh,pradeep,0.0
+vishal,alok,0.0
+arjun,mohit,0.0
+deepak,nitin,0.0
+suresh,amit,0.0
+manoj,santosh,0.0
+rohit,tushar,0.0
+kapil,ankit,0.0
+mahesh,sanjay,0.0
+ajay,harish,0.0
+gopal,chetan,0.0
+pankaj,dinesh,0.0
+yogesh,navneet,0.0
+rajiv,abhishek,0.0
+sunil,chandan,0.0
+naresh,parag,0.0
+alok,kartik,0.0
+kamal,chirag,0.0
+jayant,devender,0.0
+jitendra,shankar,0.0
+lalit,sachin,0.0
+naveen,umesh,0.0
+tarun,aditya,0.0
+pranav,vivek,0.0
+sameer,harsh,0.0
+bipin,madan,0.0
+vikrant,chiranjeev,0.0
+mayank,satyam,0.0
+sidharth,rahul,0.0
+tejas,prashant,0.0
+tapan,sandeep,0.0
+varun,devesh,0.0
+chirag,vimal,0.0
+keshav,devang,0.0
+lalit,harshit,0.0
+manish,gaurav,0.0
+pratap,shubham,0.0
+shivam,omkar,0.0
+abhay,hardik,0.0
+chandresh,sanjiv,0.0
+devdutt,anirudh,0.0
+hemant,kunal,0.0
+ishaan,prithvi,0.0
+jayesh,vijay,0.0
+kishore,rajendra,0.0
+mukesh,siddharth,0.0
+nilesh,saurabh,0.0
+prabhat,shantanu,0.0
+ranjeet,yash,0.0
+saket,anand,0.0
+tanmay,vasu,0.0
+ujjwal,yogendra,0.0
+vaibhav,deepansh,0.0
+ajit,ravi,0.0
+charan,satish,0.0
+dilip,shailesh,0.0
+himanshu,lakshay,0.0
+indrajit,raghav,0.0
+jaswant,raunak,0.0
+mohan,suhas,0.0
+niraj,umang,0.0
+onkar,vidyut,0.0
+parikshit,zubin,0.0
+rajesh,peacock,0.0
+suman,mountain,0.0
+deepak,table,0.0
+vikas,laptop,0.0
+mukesh,window,0.0
+pranav,bottle,0.0
+ramesh,apple,0.0
+ajay,river,0.0
+kamal,carpet,0.0
+anil,airplane,0.0
+manish,ceiling,0.0
+yogesh,tornado,0.0
+suresh,cucumber,0.0
+naveen,giraffe,0.0
+mahesh,pencil,0.0
+alok,notebook,0.0
+chirag,volcano,0.0
+jayant,jungle,0.0
+lalit,speaker,0.0
+sachin,rainbow,0.0
+varun,helmet,0.0
+tarun,telescope,0.0
+chandresh,planet,0.0
+mohan,calendar,0.0
+pradeep,fireplace,0.0
+kishore,tiger,0.0
+vasu,calculator,0.0
+ranjeet,octopus,0.0
+saket,moon,0.0
+rohit,ladder,0.0
+shubham,satellite,0.0
+harish,toaster,0.0
+gaurav,comb,0.0
+chirag,blanket,0.0
+ishaan,thermometer,0.0
+parikshit,camera,0.0
+rajendra,popcorn,0.0
+ravi,screwdriver,0.0
+tanmay,wallet,0.0
+onkar,keyboard,0.0
+deepansh,basketball,0.0
+Rakesh Verma,Rakesh Sharma,0.2  
+Manoj Tiwari,Manoj Gupta,0.25  
+Sanjay Mehta,Sanjay Kapoor,0.2  
+Dinesh Yadav,Dinesh Choudhary,0.25  
+Prakash Bansal,Prakash Bhalla,0.2  
+Harish Iyer,Harish Naik,0.3  
+Vikas Saxena,Vikas Malhotra,0.25  
+Ravi Joshi,Ravi Kulkarni,0.2  
+Arvind Thakur,Arvind Das,0.25  
+Sandeep Mishra,Sandeep Agarwal,0.3  
+Kamal Nair,Kamal Reddy,0.2  
+Suraj Pandey,Suraj Bhatia,0.25  
+Naresh Chatterjee,Naresh Mukherjee,0.2  
+Rohit Trivedi,Rohit Saxena,0.25  
+Ankur Srivastava,Ankur Dubey,0.3  
+Lokesh Sharma,Lokesh Mehta,0.2  
+Sameer Chopra,Sameer Khanna,0.25  
+Jitendra Sahu,Jitendra Jain,0.2  
+Rahul Deshmukh,Rahul Patil,0.25  
+Varun Bajpai,Varun Shukla,0.3  
+Vivek Malhotra,Vivek Sinha,0.2  
+Amit Bhardwaj,Amit Choudhary,0.25  
+Sunil Saxena,Sunil Nair,0.2  
+Rajeev Reddy,Rajeev Bhandari,0.25  
+Pankaj Mehta,Pankaj Taneja,0.2  
+Deepak Ghosh,Deepak Mukherjee,0.25  
+Naveen Choudhary,Naveen Gupta,0.2  
+Suresh Iyer,Suresh Pillai,0.3  
+Tarun Mishra,Tarun Sharma,0.25  
+Kapil Bhatia,Kapil Sethi,0.2  
+Arjun Kapoor,Arjun Khurana,0.25  
+Vikas Yadav,Vikas Tiwari,0.3  
+Sachin Verma,Sachin Pandey,0.2  
+Pradeep Chatterjee,Pradeep Das,0.25  
+Harsh Trivedi,Harsh Bansal,0.2  
+Chetan Kulkarni,Chetan Naik,0.25  
+Ajay Deshmukh,Ajay Patil,0.2  
+Manish Bajpai,Manish Srivastava,0.25  
+Gopal Sahu,Gopal Jain,0.3  
+Dilip Thakur,Dilip Rane,0.2  
+Mohit Malhotra,Mohit Sharma,0.25  
+Bhavesh Reddy,Bhavesh Pillai,0.2  
+Niraj Nambiar,Niraj Chatterjee,0.25  
+Jagdish Saxena,Jagdish Verma,0.2  
+Uday Bhat,Uday Joshi,0.25  
+Vishal Bansal,Vishal Ghosh,0.3  
+Rajat Kapoor,Rajat Khanna,0.2  
+Siddharth Gupta,Siddharth Mehta,0.25  
+Vinayak Iyer,Vinayak Suresh,0.2  
+Anupam Das,Anupam Ghosh,0.25  
+Michael Johnson,Michael Anderson,0.2  
+David Williams,David Thompson,0.25  
+James Brown,James Harris,0.2  
+Robert Smith,Robert Walker,0.25  
+John Taylor,John Lewis,0.3  
+Christopher White,Christopher Hall,0.2  
+Daniel Martin,Daniel Allen,0.25  
+Matthew Clark,Matthew Young,0.2  
+Anthony King,Anthony Wright,0.25  
+Mark Scott,Mark Green,0.3  
+Andrew Baker,Andrew Adams,0.2  
+Joshua Nelson,Joshua Carter,0.25  
+Kevin Mitchell,Kevin Perez,0.2  
+Brian Roberts,Brian Turner,0.25  
+Jason Phillips,Jason Campbell,0.2  
+Timothy Parker,Timothy Evans,0.25  
+Jeffrey Edwards,Jeffrey Collins,0.2  
+Ryan Stewart,Ryan Morris,0.3  
+Nicholas Rogers,Nicholas Murphy,0.2  
+Eric Reed,Eric Cook,0.25  
+Jonathan Bell,Jonathan Cooper,0.2  
+Brandon Bailey,Brandon Richardson,0.25  
+Samuel Cox,Samuel Howard,0.2  
+Gregory Ward,Gregory Peterson,0.25  
+Stephen Gray,Stephen Hughes,0.3  
+Alexander Flores,Alexander Bennett,0.2  
+Benjamin Russell,Benjamin Barnes,0.25  
+Zachary Wood,Zachary Jenkins,0.2  
+Ethan Bryant,Ethan Powell,0.25  
+Patrick Watson,Patrick Brooks,0.3  
+Dylan Kelly,Dylan Sanders,0.2  
+Adam Price,Adam Ross,0.25  
+Nathan Morris,Nathan Henderson,0.2  
+Henry Coleman,Henry Fisher,0.25  
+Justin Simmons,Justin Butler,0.3  
+Shawn Foster,Shawn Gonzales,0.2  
+Kyle Hayes,Kyle Long,0.25  
+Derek Washington,Derek Bryant,0.2  
+Lucas Rivera,Lucas Alexander,0.25  
+Cameron Henderson,Cameron Bell,0.3  
+Ahmed Khan,Ahmed Sheikh,0.2  
+Mohammed Ali,Mohammed Hassan,0.25  
+Omar Farooq,Omar Qureshi,0.2  
+Hassan Syed,Hassan Rizvi,0.25  
+Ibrahim Malik,Ibrahim Ahmed,0.3  
+Bilal Rahman,Bilal Hussain,0.2  
+Yusuf Karim,Yusuf Nadeem,0.25  
+Mustafa Aziz,Mustafa Hamid,0.2  
+Tariq Saeed,Tariq Abbas,0.25  
+Zaid Anwar,Zaid Akhtar,0.3  
+Faisal Mahmood,Faisal Rafiq,0.2  
+Sami Javed,Sami Iqbal,0.25  
+Imran Nasir,Imran Zubair,0.2  
+Rashid Noor,Rashid Wahid,0.25  
+Naveed Bashir,Naveed Usman,0.3  
+Shahid Sultan,Shahid Shabbir,0.2  
+Adnan Tariq,Adnan Sadiq,0.25  
+Hamza Parvez,Hamza Tanveer,0.2  
+Kashif Sohail,Kashif Asghar,0.25  
+Farhan Junaid,Farhan Daniyal,0.3  
+Salman Younis,Salman Waseem,0.2  
+Usman Raza,Usman Baig,0.25  
+Zubair Khalid,Zubair Mehboob,0.2  
+Shakeel Irfan,Shakeel Afzal,0.25  
+Arif Hameed,Arif Muneer,0.3  
+Aftab Danish,Aftab Jameel,0.2  
+Saad Tufail,Saad Yasir,0.25  
+Asif Noman,Asif Zaki,0.2  
+Junaid Sarfaraz,Junaid Murtaza,0.25  
+Rehan Nadeem,Rehan Faisal,0.3  
+Jonathan Edwards,Jonathan Edward,0.7  
+Christopher Martin,Christopher Martinez,0.7  
+Michael Stevenson,Michael Stephenson,0.7  
+Benjamin Peterson,Benjamin Petersson,0.7  
+Nathaniel Harrison,Nathaniel Harris,0.7  
+Alexander Robertson,Alexander Robinson,0.7  
+Samuel Anderson,Samuel Andersson,0.7  
+Theodore Richardson,Theodore Richard,0.7  
+Daniel Thompson,Daniel Thomson,0.7  
+William Reynolds,William Reynard,0.7  
+Nicholas Simmons,Nicholas Simons,0.7  
+Brandon Mitchell,Brandon Michel,0.7  
+Timothy Davidson,Timothy Davison,0.7  
+Jeffrey Caldwell,Jeffrey Coldwell,0.7  
+Gregory Winston,Gregory Winstead,0.7  
+Anthony Bradford,Anthony Bradshaw,0.7  
+Patrick Callahan,Patrick Callaghan,0.7  
+Frederick Warner,Frederick Warners,0.7  
+Raymond Hutchinson,Raymond Hutchison,0.7  
+Rakesh Verma,Rakesh Sharma,0.2  
+Manoj Tiwari,Manoj Gupta,0.25  
+Sanjay Mehta,Sanjay Kapoor,0.2  
+Dinesh Yadav,Dinesh Choudhary,0.25  
+Prakash Bansal,Prakash Bhalla,0.2  
+Harish Iyer,Harish Naik,0.3  
+Vikas Saxena,Vikas Malhotra,0.25  
+Ravi Joshi,Ravi Kulkarni,0.2  
+Arvind Thakur,Arvind Das,0.25  
+Sandeep Mishra,Sandeep Agarwal,0.3  
+Kamal Nair,Kamal Reddy,0.2  
+Suraj Pandey,Suraj Bhatia,0.25  
+Naresh Chatterjee,Naresh Mukherjee,0.2  
+Rohit Trivedi,Rohit Saxena,0.25  
+Ankur Srivastava,Ankur Dubey,0.3  
+Lokesh Sharma,Lokesh Mehta,0.2  
+Sameer Chopra,Sameer Khanna,0.25  
+Jitendra Sahu,Jitendra Jain,0.2  
+Rahul Deshmukh,Rahul Patil,0.25  
+Varun Bajpai,Varun Shukla,0.3  
+Vivek Malhotra,Vivek Sinha,0.2  
+Amit Bhardwaj,Amit Choudhary,0.25  
+Sunil Saxena,Sunil Nair,0.2  
+Rajeev Reddy,Rajeev Bhandari,0.25  
+Pankaj Mehta,Pankaj Taneja,0.2  
+Deepak Ghosh,Deepak Mukherjee,0.25  
+Naveen Choudhary,Naveen Gupta,0.2  
+Suresh Iyer,Suresh Pillai,0.3  
+Tarun Mishra,Tarun Sharma,0.25  
+Kapil Bhatia,Kapil Sethi,0.2  
+Arjun Kapoor,Arjun Khurana,0.25  
+Vikas Yadav,Vikas Tiwari,0.3  
+Sachin Verma,Sachin Pandey,0.2  
+Pradeep Chatterjee,Pradeep Das,0.25  
+Harsh Trivedi,Harsh Bansal,0.2  
+Chetan Kulkarni,Chetan Naik,0.25  
+Ajay Deshmukh,Ajay Patil,0.2  
+Manish Bajpai,Manish Srivastava,0.25  
+Gopal Sahu,Gopal Jain,0.3  
+Dilip Thakur,Dilip Rane,0.2  
+Mohit Malhotra,Mohit Sharma,0.25  
+Bhavesh Reddy,Bhavesh Pillai,0.2  
+Niraj Nambiar,Niraj Chatterjee,0.25  
+Jagdish Saxena,Jagdish Verma,0.2  
+Uday Bhat,Uday Joshi,0.25  
+Vishal Bansal,Vishal Ghosh,0.3  
+Rajat Kapoor,Rajat Khanna,0.2  
+Siddharth Gupta,Siddharth Mehta,0.25  
+Vinayak Iyer,Vinayak Suresh,0.2  
+Anupam Das,Anupam Ghosh,0.25  
+Michael Johnson,Michael Anderson,0.2  
+David Williams,David Thompson,0.25  
+James Brown,James Harris,0.2  
+Robert Smith,Robert Walker,0.25  
+John Taylor,John Lewis,0.3  
+Christopher White,Christopher Hall,0.2  
+Daniel Martin,Daniel Allen,0.25  
+Matthew Clark,Matthew Young,0.2  
+Anthony King,Anthony Wright,0.25  
+Mark Scott,Mark Green,0.3  
+Andrew Baker,Andrew Adams,0.2  
+Joshua Nelson,Joshua Carter,0.25  
+Kevin Mitchell,Kevin Perez,0.2  
+Brian Roberts,Brian Turner,0.25  
+Jason Phillips,Jason Campbell,0.2  
+Timothy Parker,Timothy Evans,0.25  
+Jeffrey Edwards,Jeffrey Collins,0.2  
+Ryan Stewart,Ryan Morris,0.3  
+Nicholas Rogers,Nicholas Murphy,0.2  
+Eric Reed,Eric Cook,0.25  
+Jonathan Bell,Jonathan Cooper,0.2  
+Brandon Bailey,Brandon Richardson,0.25  
+Samuel Cox,Samuel Howard,0.2  
+Gregory Ward,Gregory Peterson,0.25  
+Stephen Gray,Stephen Hughes,0.3  
+Alexander Flores,Alexander Bennett,0.2  
+Benjamin Russell,Benjamin Barnes,0.25  
+Zachary Wood,Zachary Jenkins,0.2  
+Ethan Bryant,Ethan Powell,0.25  
+Patrick Watson,Patrick Brooks,0.3  
+Dylan Kelly,Dylan Sanders,0.2  
+Adam Price,Adam Ross,0.25  
+Nathan Morris,Nathan Henderson,0.2  
+Henry Coleman,Henry Fisher,0.25  
+Justin Simmons,Justin Butler,0.3  
+Shawn Foster,Shawn Gonzales,0.2  
+Kyle Hayes,Kyle Long,0.25  
+Derek Washington,Derek Bryant,0.2  
+Lucas Rivera,Lucas Alexander,0.25  
+Cameron Henderson,Cameron Bell,0.3  
+Ahmed Khan,Ahmed Sheikh,0.2  
+Mohammed Ali,Mohammed Hassan,0.25  
+Omar Farooq,Omar Qureshi,0.2  
+Hassan Syed,Hassan Rizvi,0.25  
+Ibrahim Malik,Ibrahim Ahmed,0.3  
+Bilal Rahman,Bilal Hussain,0.2  
+Yusuf Karim,Yusuf Nadeem,0.25  
+Mustafa Aziz,Mustafa Hamid,0.2  
+Tariq Saeed,Tariq Abbas,0.25  
+Zaid Anwar,Zaid Akhtar,0.3  
+Faisal Mahmood,Faisal Rafiq,0.2  
+Sami Javed,Sami Iqbal,0.25  
+Imran Nasir,Imran Zubair,0.2  
+Rashid Noor,Rashid Wahid,0.25  
+Naveed Bashir,Naveed Usman,0.3
+Ramesh Kumar,Ramesh K.,0.85
+Anita Sharma,Anita S.,0.85
+Rajesh Verma,R. Verma,0.80
+Deepak Choudhary,Deepak Ch.,0.85
+Sanjay Gupta,Sanjay G.,0.85
+Amitabh Bachchan,Amitabh B.,0.85
+Priya Singh,Priya Kumari Singh,0.90
+Mohammad Ali,Mohd. Ali,0.90
+Krishna Iyer,K. Iyer,0.80
+Harish Patel,Harishkumar Patel,0.90
+Suresh Reddy,Suresh K. Reddy,0.90  
+Meena Sharma,Meena Devi Sharma,0.90  
+Arjun Kapoor,Arjun Raj Kapoor,0.85  
+Vikram Singh,Vikram S.,0.80  
+Ashok Mehta,Ashok Kumar Mehta,0.90  
+Ravi Verma,Ravi K. Verma,0.85  
+Neha Gupta,Neha R. Gupta,0.85  
+Sandeep Chatterjee,Sandeep Kumar Chatterjee,0.90  
+Kiran Das,Kiran K. Das,0.85  
+Manoj Tiwari,Manoj Prakash Tiwari,0.90  
+Anil Kumar,Anil K.,0.85  
+Rajiv Saxena,Rajiv K. Saxena,0.90  
+Swati Mishra,Swati P. Mishra,0.85  
+Abdul Rahman,Abdul R.,0.80  
+Vinay Joshi,Vinay K. Joshi,0.85  
+Farhan Khan,Farhan A. Khan,0.85  
+Kamal Nath,Kamal Narayan Nath,0.90  
+Pooja Agarwal,Pooja R. Agarwal,0.85  
+Aditya Desai,Aditya N. Desai,0.85  
+Shalini Nair,Shalini K. Nair,0.85  
+Amit Khanna,Amit Kumar Khanna,0.90  
+Rohan Malhotra,Rohan K. Malhotra,0.85  
+Vikas Yadav,Vikas P. Yadav,0.85  
+Neeraj Sinha,Neeraj Kumar Sinha,0.90  
+Sunita Verma,Sunita R. Verma,0.85  
+Tarun Choudhary,Tarun P. Choudhary,0.85  
+Rajesh Thakur,Rajesh K. Thakur,0.85  
+Deepak Pillai,Deepak Narayan Pillai,0.90  
+Mohit Joshi,Mohit A. Joshi,0.85  
+Alok Pandey,Alok Kumar Pandey,0.90  
+Nidhi Sharma,Nidhi R. Sharma,0.85  
+Sanjay Kapoor,Sanjay P. Kapoor,0.85  
+Vivek Saxena,Vivek Kumar Saxena,0.90  
+Manish Agarwal,Manish K. Agarwal,0.85  
+Ajay Patil,Ajay R. Patil,0.85  
+Rekha Iyer,Rekha K. Iyer,0.85  
+Bharat Deshmukh,Bharat Prakash Deshmukh,0.90  
+Ashish Gupta,Ashish K. Gupta,0.85  
+Naseer Khan,Naseer A. Khan,0.85  
+Suresh Menon,Suresh Narayan Menon,0.90  
+Ayesha Farooq,Ayesha T. Farooq,0.85  
+Yusuf Rahman,Yusuf A. Rahman,0.85  
+Imran Qureshi,Imran H. Qureshi,0.85  
+Tariq Saeed,Tariq A. Saeed,0.85  
+Kabir Hassan,Kabir M. Hassan,0.85  
+Faisal Junaid,Faisal R. Junaid,0.85  
+Kashif Sohail,Kashif N. Sohail,0.85  
+Michael Anderson,Michael J. Anderson,0.90  
+David Thompson,David R. Thompson,0.85  
+James Harrison,James P. Harrison,0.85  
+Robert Walker,Robert A. Walker,0.85  
+John Lewis,John K. Lewis,0.85  
+Christopher Hall,Christopher M. Hall,0.85  
+Daniel Martin,Daniel S. Martin,0.85  
+Matthew Young,Matthew C. Young,0.85  
+Anthony Wright,Anthony P. Wright,0.85  
+Mark Green,Mark D. Green,0.85  
+Andrew Adams,Andrew J. Adams,0.85  
+Joshua Carter,Joshua T. Carter,0.85  
+Kevin Perez,Kevin R. Perez,0.85  
+Brian Turner,Brian K. Turner,0.85  
+Jason Campbell,Jason A. Campbell,0.85  
+Timothy Evans,Timothy L. Evans,0.85  
+Jeffrey Collins,Jeffrey R. Collins,0.85  
+Ryan Morris,Ryan K. Morris,0.85  
+Nicholas Murphy,Nicholas P. Murphy,0.85  
+Eric Cook,Eric A. Cook,0.85  
+Jonathan Cooper,Jonathan R. Cooper,0.85  
+Brandon Richardson,Brandon K. Richardson,0.85  
+Samuel Howard,Samuel J. Howard,0.85  
+Gregory Peterson,Gregory R. Peterson,0.85  
+Stephen Hughes,Stephen M. Hughes,0.85  
+Alexander Bennett,Alexander J. Bennett,0.85  
+Benjamin Barnes,Benjamin P. Barnes,0.85  
+Zachary Jenkins,Zachary T. Jenkins,0.85  
+Ethan Powell,Ethan L. Powell,0.85  
+Patrick Brooks,Patrick R. Brooks,0.85  
+Dylan Sanders,Dylan K. Sanders,0.85  
+Adam Ross,Adam J. Ross,0.85  
+Nathan Henderson,Nathan P. Henderson,0.85  
+Henry Fisher,Henry R. Fisher,0.85  
+Justin Butler,Justin L. Butler,0.85  
+Shawn Gonzales,Shawn K. Gonzales,0.85  
+Kyle Long,Kyle A. Long,0.85  
+Derek Bryant,Derek R. Bryant,0.85  
+Lucas Alexander,Lucas J. Alexander,0.85  
+Cameron Bell,Cameron P. Bell,0.85  
+Leo Hawkins,Leo J. Hawkins,0.85  
+Vincent Clarke,Vincent R. Clarke,0.85  
+Austin Bradley,Austin K. Bradley,0.85  
+Julian Hughes,Julian L. Hughes,0.85  
+Oscar Duncan,Oscar M. Duncan,0.85  
+Sebastian Blake,Sebastian P. Blake,0.85  
+Tyler Newton,Tyler K. Newton,0.85  
+Grant Fletcher,Grant J. Fletcher,0.85  
+Corey Maxwell,Corey P. Maxwell,0.85  
+Shane Walsh,Shane L. Walsh,0.85  
+Dominic Reed,Dominic K. Reed,0.85  
+Curtis Baldwin,Curtis R. Baldwin,0.85  
+Troy Sullivan,Troy J. Sullivan,0.85  
+Leonard Jennings,Leonard K. Jennings,0.85  
+Clark Stevenson,Clark P. Stevenson,0.85  
+Elliot Lancaster,Elliot R. Lancaster,0.85  
+Finnley Marshall,Finnley J. Marshall,0.85  
+Damian Buckley,Damian K. Buckley,0.85  
+Dr. Michael Anderson,Michael Anderson Jr.,0.85  
+Sir David Thompson,David Thompson Sr.,0.85  
+Prof. James Harrison,James Harrison Jr.,0.85  
+Mr. Robert Walker,Robert Walker III,0.85  
+Hon. John Lewis,John Lewis IV,0.85  
+Rev. Christopher Hall,Christopher Hall Sr.,0.85  
+Capt. Daniel Martin,Daniel Martin Jr.,0.85  
+Lt. Matthew Young,Matthew Young III,0.85  
+Maj. Anthony Wright,Anthony Wright IV,0.85  
+Cmdr. Mark Green,Mark Green Sr.,0.85  
+Gen. Andrew Adams,Andrew Adams Jr.,0.85  
+Dr. Joshua Carter,Joshua Carter II,0.85  
+Sir Kevin Perez,Kevin Perez III,0.85  
+Prof. Brian Turner,Brian Turner Jr.,0.85  
+Mr. Jason Campbell,Jason Campbell Sr.,0.85  
+Hon. Timothy Evans,Timothy Evans III,0.85  
+Rev. Jeffrey Collins,Jeffrey Collins IV,0.85  
+Lt. Ryan Morris,Ryan Morris Jr.,0.85  
+Maj. Nicholas Murphy,Nicholas Murphy Sr.,0.85  
+Dr. Eric Cook,Eric Cook III,0.85  
+Sir Jonathan Cooper,Jonathan Cooper II,0.85  
+Prof. Brandon Richardson,Brandon Richardson Jr.,0.85  
+Cmdr. Samuel Howard,Samuel Howard III,0.85  
+Gen. Gregory Peterson,Gregory Peterson IV,0.85  
+Dr. Stephen Hughes,Stephen Hughes Jr.,0.85  
+Sir Alexander Bennett,Alexander Bennett Sr.,0.85  
+Prof. Benjamin Barnes,Benjamin Barnes III,0.85  
+Rev. Zachary Jenkins,Zachary Jenkins IV,0.85  
+Lt. Ethan Powell,Ethan Powell Jr.,0.85  
+Maj. Patrick Brooks,Patrick Brooks Sr.,0.85  
+Cmdr. Dylan Sanders,Dylan Sanders III,0.85  
+Gen. Adam Ross,Adam Ross IV,0.85  
+Dr. Nathan Henderson,Nathan Henderson Jr.,0.85  
+Sir Henry Fisher,Henry Fisher Sr.,0.85  
+Prof. Justin Butler,Justin Butler III,0.85  
+Rev. Shawn Gonzales,Shawn Gonzales IV,0.85  
+Lt. Kyle Long,Kyle Long Jr.,0.85  
+Maj. Derek Bryant,Derek Bryant Sr.,0.85  
+Cmdr. Lucas Alexander,Lucas Alexander III,0.85  
+Gen. Cameron Bell,Cameron Bell IV,0.85  
+Dr. Leo Hawkins,Leo Hawkins Jr.,0.85  
+Sir Vincent Clarke,Vincent Clarke Sr.,0.85  
+Prof. Austin Bradley,Austin Bradley III,0.85  
+Rev. Julian Hughes,Julian Hughes IV,0.85  
+Lt. Oscar Duncan,Oscar Duncan Jr.,0.85  
+Maj. Sebastian Blake,Sebastian Blake Sr.,0.85  
+Cmdr. Tyler Newton,Tyler Newton III,0.85  
+Gen. Grant Fletcher,Grant Fletcher IV,0.85  
+Dr. Corey Maxwell,Corey Maxwell Jr.,0.85  
+Sir Shane Walsh,Shane Walsh Sr.,0.85  
+Prof. Dominic Reed,Dominic Reed III,0.85  
+Rev. Curtis Baldwin,Curtis Baldwin IV,0.85  
+Lt. Troy Sullivan,Troy Sullivan Jr.,0.85  
+Maj. Leonard Jennings,Leonard Jennings Sr.,0.85  
+Cmdr. Clark Stevenson,Clark Stevenson III,0.85  
+Gen. Elliot Lancaster,Elliot Lancaster IV,0.85  
+Dr. Finnley Marshall,Finnley Marshall Jr.,0.85  
+Sir Damian Buckley,Damian Buckley Sr.,0.85  
+Dr. Lorenzo Moretti,Lorenzo Moretti Jr.,0.85  
+Sir Matteo Ricci,Matteo Ricci Sr.,0.85  
+Prof. Giovanni Esposito,Giovanni Esposito III,0.85  
+Mr. Alessandro Romano,Alessandro Romano IV,0.85  
+Hon. Federico De Luca,Federico De Luca Jr.,0.85  
+Rev. Marco Gallo,Marco Gallo Sr.,0.85  
+Capt. Ricardo Alvarez,Ricardo Alvarez III,0.85  
+Lt. Santiago Herrera,Santiago Herrera IV,0.85  
+Maj. Alejandro Navarro,Alejandro Navarro Jr.,0.85  
+Cmdr. Gabriel Ortega,Gabriel Ortega Sr.,0.85  
+Gen. Javier Marquez,Javier Marquez III,0.85  
+Dr. Diego Fernandez,Diego Fernandez IV,0.85  
+Sir Carlos Batista,Carlos Batista Jr.,0.85  
+Prof. Rafael Delgado,Rafael Delgado Sr.,0.85  
+Mr. José Castillo,José Castillo III,0.85  
+Hon. Eduardo Ramos,Eduardo Ramos IV,0.85  
+Rev. Miguel Silva,Miguel Silva Jr.,0.85  
+Lt. Andre Santos,Andre Santos Sr.,0.85  
+Maj. Leonardo Oliveira,Leonardo Oliveira III,0.85  
+Cmdr. Bruno Costa,Bruno Costa IV,0.85  
+Gen. Thiago Pereira,Thiago Pereira Jr.,0.85  
+Dr. João Almeida,João Almeida Sr.,0.85  
+Sir Hugo Mendes,Hugo Mendes III,0.85  
+Prof. Francisco Barbosa,Francisco Barbosa IV,0.85  
+Rev. Marcelo Rocha,Marcelo Rocha Jr.,0.85  
+Lt. Olivier Dubois,Olivier Dubois Sr.,0.85  
+Maj. Antoine Lefevre,Antoine Lefevre III,0.85  
+Cmdr. Pierre Laurent,Pierre Laurent IV,0.85  
+Gen. Sébastien Moreau,Sébastien Moreau Jr.,0.85  
+Dr. Nicolas Bernard,Nicolas Bernard Sr.,0.85  
+Sir Damien Fontaine,Damien Fontaine III,0.85  
+Prof. Jean-Paul Lambert,Jean-Paul Lambert IV,0.85  
+Rev. Samuel Girard,Samuel Girard Jr.,0.85  
+Lt. Hendrik van Dijk,Hendrik van Dijk Sr.,0.85  
+Maj. Willem Visser,Willem Visser III,0.85  
+Cmdr. Sven Jansen,Sven Jansen IV,0.85  
+Gen. Tobias de Vries,Tobias de Vries Jr.,0.85  
+Dr. Lars Bakker,Lars Bakker Sr.,0.85  
+Sir Frederik Kuipers,Frederik Kuipers III,0.85  
+Prof. Christoph Müller,Christoph Müller IV,0.85  
+Rev. Julian Wagner,Julian Wagner Jr.,0.85  
+Lt. Tobias Hoffmann,Tobias Hoffmann Sr.,0.85  
+Maj. Henrik Fischer,Henrik Fischer III,0.85  
+Cmdr. Felix Schröder,Felix Schröder IV,0.85  
+Gen. Markus Neumann,Markus Neumann Jr.,0.85  
+Dr. Stefan Lehmann,Stefan Lehmann Sr.,0.85  
+Sir Luca Romano,Luca Romano III,0.85  
+Prof. Enrique Rojas,Enrique Rojas IV,0.85  
+Rev. Fernando Vargas,Fernando Vargas Jr.,0.85  
+Lt. Sergio Ramirez,Sergio Ramirez Sr.,0.85  
+Maj. Alfonso Moreno,Alfonso Moreno III,0.85  
+Cmdr. Roberto Mendez,Roberto Mendez IV,0.85  
+Gen. Gustavo Jimenez,Gustavo Jimenez Jr.,0.85  
+Dr. Ricardo Paredes,Ricardo Paredes Sr.,0.85  
+Sir Jose Luis Suarez,Jose Luis Suarez III,0.85  
+Prof. Emilio Torres,Emilio Torres IV,0.85  
+Rev. Alberto Fuentes,Alberto Fuentes Jr.,0.85  
+Lt. Mario Blanco,Mario Blanco Sr.,0.85  
+Maj. Raul Vega,Raul Vega III,0.85  
+Cmdr. Pablo Luna,Pablo Luna IV,0.85  
+Gen. Fernando Cortes,Fernando Cortes Jr.,0.85  
+Dr. Pedro Cabrera,Pedro Cabrera Sr.,0.85  
+Sir Santiago Pacheco,Santiago Pacheco III,0.85  
+Prof. Adrian Dominguez,Adrian Dominguez IV,0.85  
+Rev. Daniel Salazar,Daniel Salazar Jr.,0.85  
+Lt. Ignacio Castillo,Ignacio Castillo Sr.,0.85  
+Maj. Hernando Valdez,Hernando Valdez III,0.85  
+Cmdr. Carlos Nunez,Carlos Nunez IV,0.85  
+Gen. Antonio Serrano,Antonio Serrano Jr.,0.85  
+Dr. Hector Marin,Hector Marin Sr.,0.85  
+Sir Gustavo Reyes,Gustavo Reyes III,0.85  
+Prof. Bruno Estevez,Bruno Estevez IV,0.85  
+Rev. Esteban Solis,Esteban Solis Jr.,0.85  
+Lt. Alejandro Dominguez,Alejandro Dominguez Sr.,0.85  
+Maj. Vicente Rivas,Vicente Rivas III,0.85  
+Cmdr. Luciano Ponce,Luciano Ponce IV,0.85  
+Gen. Rodrigo Benitez,Rodrigo Benitez Jr.,0.85  
+Dr. Federico Aranda,Federico Aranda Sr.,0.85  
+Sir Manuel Espinoza,Manuel Espinoza III,0.85  
+Prof. Rafael Carrasco,Rafael Carrasco IV,0.85  
+Rev. Alonso Medina,Alonso Medina Jr.,0.85  
+Lt. Marcos Palacios,Marcos Palacios Sr.,0.85  
+Maj. Ernesto Peña,Ernesto Peña III,0.85  
+Cmdr. Sergio Cordero,Sergio Cordero IV,0.85  
+Gen. Ramon Becerra,Ramon Becerra Jr.,0.85  
+Dr. Salvador Varela,Salvador Varela Sr.,0.85  
+Sir Cristian Guerra,Cristian Guerra III,0.85  
+Prof. Joaquin Montoya,Joaquin Montoya IV,0.85  
+Rev. Jaime Rojas,Jaime Rojas Jr.,0.85  
+Lt. Ricardo Berrios,Ricardo Berrios Sr.,0.85  
+Maj. Hernan Del Toro,Hernan Del Toro III,0.85  
+Cmdr. Mauricio Villegas,Mauricio Villegas IV,0.85  
+Gen. Rafael Beltran,Rafael Beltran Jr.,0.85  
+Dr. Esteban Aguirre,Esteban Aguirre Sr.,0.85  
+Sir Nicolas Moya,Nicolas Moya III,0.85  
+Prof. Adrian Orozco,Adrian Orozco IV,0.85  
+Rev. Miguel Angel Padilla,Miguel Angel Padilla Jr.,0.85  
+Dr. Lorenzo Moretti,Lorenzo Moretti Jr.,0.85  
+Sir Matteo Ricci,Matteo Ricci Sr.,0.85  
+Prof. Giovanni Esposito,Giovanni Esposito III,0.85  
+Mr. Alessandro Romano,Alessandro Romano IV,0.85  
+Hon. Federico De Luca,Federico De Luca Jr.,0.85  
+Rev. Marco Gallo,Marco Gallo Sr.,0.85  
+Capt. Ricardo Alvarez,Ricardo Alvarez III,0.85  
+Lt. Santiago Herrera,Santiago Herrera IV,0.85  
+Maj. Alejandro Navarro,Alejandro Navarro Jr.,0.85  
+Cmdr. Gabriel Ortega,Gabriel Ortega Sr.,0.85  
+Gen. Javier Marquez,Javier Marquez III,0.85  
+Dr. Diego Fernandez,Diego Fernandez IV,0.85  
+Sir Carlos Batista,Carlos Batista Jr.,0.85  
+Prof. Rafael Delgado,Rafael Delgado Sr.,0.85  
+Mr. José Castillo,José Castillo III,0.85  
+Hon. Eduardo Ramos,Eduardo Ramos IV,0.85  
+Rev. Miguel Silva,Miguel Silva Jr.,0.85  
+Lt. Andre Santos,Andre Santos Sr.,0.85  
+Maj. Leonardo Oliveira,Leonardo Oliveira III,0.85  
+Cmdr. Bruno Costa,Bruno Costa IV,0.85  
+Gen. Thiago Pereira,Thiago Pereira Jr.,0.85  
+Dr. João Almeida,João Almeida Sr.,0.85  
+Sir Hugo Mendes,Hugo Mendes III,0.85  
+Prof. Francisco Barbosa,Francisco Barbosa IV,0.85  
+Rev. Marcelo Rocha,Marcelo Rocha Jr.,0.85  
+Lt. Olivier Dubois,Olivier Dubois Sr.,0.85  
+Maj. Antoine Lefevre,Antoine Lefevre III,0.85  
+Cmdr. Pierre Laurent,Pierre Laurent IV,0.85  
+Gen. Sébastien Moreau,Sébastien Moreau Jr.,0.85  
+Dr. Nicolas Bernard,Nicolas Bernard Sr.,0.85  
+Sir Damien Fontaine,Damien Fontaine III,0.85  
+Prof. Jean-Paul Lambert,Jean-Paul Lambert IV,0.85  
+Rev. Samuel Girard,Samuel Girard Jr.,0.85  
+Lt. Hendrik van Dijk,Hendrik van Dijk Sr.,0.85  
+Maj. Willem Visser,Willem Visser III,0.85  
+Cmdr. Sven Jansen,Sven Jansen IV,0.85  
+Gen. Tobias de Vries,Tobias de Vries Jr.,0.85  
+Dr. Lars Bakker,Lars Bakker Sr.,0.85  
+Sir Frederik Kuipers,Frederik Kuipers III,0.85  
+Prof. Christoph Müller,Christoph Müller IV,0.85  
+Rev. Julian Wagner,Julian Wagner Jr.,0.85  
+Lt. Tobias Hoffmann,Tobias Hoffmann Sr.,0.85  
+Maj. Henrik Fischer,Henrik Fischer III,0.85  
+Cmdr. Felix Schröder,Felix Schröder IV,0.85  
+Gen. Markus Neumann,Markus Neumann Jr.,0.85  
+Dr. Stefan Lehmann,Stefan Lehmann Sr.,0.85  
+Sir Luca Romano,Luca Romano III,0.85  
+Prof. Enrique Rojas,Enrique Rojas IV,0.85  
+Rev. Fernando Vargas,Fernando Vargas Jr.,0.85  
+Lt. Sergio Ramirez,Sergio Ramirez Sr.,0.85  
+Maj. Alfonso Moreno,Alfonso Moreno III,0.85  
+Cmdr. Roberto Mendez,Roberto Mendez IV,0.85  
+Gen. Gustavo Jimenez,Gustavo Jimenez Jr.,0.85  
+Dr. Ricardo Paredes,Ricardo Paredes Sr.,0.85  
+Sir Jose Luis Suarez,Jose Luis Suarez III,0.85  
+Prof. Emilio Torres,Emilio Torres IV,0.85  
+Rev. Alberto Fuentes,Alberto Fuentes Jr.,0.85  
+Lt. Mario Blanco,Mario Blanco Sr.,0.85  
+Maj. Raul Vega,Raul Vega III,0.85  
+Cmdr. Pablo Luna,Pablo Luna IV,0.85  
+Gen. Fernando Cortes,Fernando Cortes Jr.,0.85  
+Dr. Pedro Cabrera,Pedro Cabrera Sr.,0.85  
+Sir Santiago Pacheco,Santiago Pacheco III,0.85  
+Prof. Adrian Dominguez,Adrian Dominguez IV,0.85  
+Rev. Daniel Salazar,Daniel Salazar Jr.,0.85  
+Lt. Ignacio Castillo,Ignacio Castillo Sr.,0.85  
+Maj. Hernando Valdez,Hernando Valdez III,0.85  
+Cmdr. Carlos Nunez,Carlos Nunez IV,0.85  
+Gen. Antonio Serrano,Antonio Serrano Jr.,0.85  
+Dr. Hector Marin,Hector Marin Sr.,0.85  
+Sir Gustavo Reyes,Gustavo Reyes III,0.85  
+Prof. Bruno Estevez,Bruno Estevez IV,0.85  
+Rev. Esteban Solis,Esteban Solis Jr.,0.85  
+Lt. Alejandro Dominguez,Alejandro Dominguez Sr.,0.85  
+Maj. Vicente Rivas,Vicente Rivas III,0.85  
+Cmdr. Luciano Ponce,Luciano Ponce IV,0.85  
+Gen. Rodrigo Benitez,Rodrigo Benitez Jr.,0.85  
+Dr. Federico Aranda,Federico Aranda Sr.,0.85  
+Sir Manuel Espinoza,Manuel Espinoza III,0.85  
+Prof. Rafael Carrasco,Rafael Carrasco IV,0.85  
+Rev. Alonso Medina,Alonso Medina Jr.,0.85  
+Lt. Marcos Palacios,Marcos Palacios Sr.,0.85  
+Maj. Ernesto Peña,Ernesto Peña III,0.85  
+Cmdr. Sergio Cordero,Sergio Cordero IV,0.85  
+Gen. Ramon Becerra,Ramon Becerra Jr.,0.85  
+Dr. Salvador Varela,Salvador Varela Sr.,0.85  
+Sir Cristian Guerra,Cristian Guerra III,0.85  
+Prof. Joaquin Montoya,Joaquin Montoya IV,0.85  
+Rev. Jaime Rojas,Jaime Rojas Jr.,0.85  
+Lt. Ricardo Berrios,Ricardo Berrios Sr.,0.85  
+Maj. Hernan Del Toro,Hernan Del Toro III,0.85  
+Cmdr. Mauricio Villegas,Mauricio Villegas IV,0.85  
+Gen. Rafael Beltran,Rafael Beltran Jr.,0.85  
+Dr. Esteban Aguirre,Esteban Aguirre Sr.,0.85  
+Sir Nicolas Moya,Nicolas Moya III,0.85  
+Prof. Adrian Orozco,Adrian Orozco IV,0.85  
+Rev. Miguel Angel Padilla,Miguel Angel Padilla Jr.,0.85  
 
+
+
+
+
+
+
+
+
+
+
+ 

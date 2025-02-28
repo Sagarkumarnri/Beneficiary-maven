@@ -4,34 +4,34 @@ tags:
 - sentence-similarity
 - feature-extraction
 - generated_from_trainer
-- dataset_size:202
+- dataset_size:1782
 - loss:CosineSimilarityLoss
 widget:
-- source_sentence: Kevin
+- source_sentence: Kunal
   sentences:
-  - Lucia
-  - Anne
-  - Stephen
-- source_sentence: Jordan
+  - Rashmi
+  - Bruno Estevez IV
+  - Rohit Sr.
+- source_sentence: lalit
   sentences:
-  - April
-  - Sadie
-  - Gianna
-- source_sentence: Benjamin
+  - Isla
+  - Dahlia
+  - harshit
+- source_sentence: Timothy
   sentences:
-  - Harper
-  - Danica
-  - Emily
-- source_sentence: Felix
+  - Jeffrey
+  - Donald
+  - Theodore Richard
+- source_sentence: Bharat
   sentences:
-  - Elisa
-  - Charlotte
-  - Nina
-- source_sentence: Ethan
+  - James P. Harrison
+  - Amrita
+  - Deepak Ch.
+- source_sentence: Maj. Alfonso Moreno
   sentences:
-  - Ava
-  - Eva
-  - Julia
+  - Harini
+  - Alfonso Moreno III
+  - Gaurav Jr.
 pipeline_tag: sentence-similarity
 library_name: sentence-transformers
 ---
@@ -85,9 +85,9 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer("sentence_transformers_model_id")
 # Run inference
 sentences = [
-    'Ethan',
-    'Ava',
-    'Julia',
+    'Maj. Alfonso Moreno',
+    'Alfonso Moreno III',
+    'Gaurav Jr.',
 ]
 embeddings = model.encode(sentences)
 print(embeddings.shape)
@@ -141,19 +141,19 @@ You can finetune this model on your own dataset.
 
 #### Unnamed Dataset
 
-* Size: 202 training samples
+* Size: 1,782 training samples
 * Columns: <code>sentence_0</code>, <code>sentence_1</code>, and <code>label</code>
-* Approximate statistics based on the first 202 samples:
-  |         | sentence_0                                                                      | sentence_1                                                                      | label                                                           |
-  |:--------|:--------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|:----------------------------------------------------------------|
-  | type    | string                                                                          | string                                                                          | float                                                           |
-  | details | <ul><li>min: 3 tokens</li><li>mean: 3.02 tokens</li><li>max: 4 tokens</li></ul> | <ul><li>min: 3 tokens</li><li>mean: 3.21 tokens</li><li>max: 5 tokens</li></ul> | <ul><li>min: 0.0</li><li>mean: 0.09</li><li>max: 0.95</li></ul> |
+* Approximate statistics based on the first 1000 samples:
+  |         | sentence_0                                                                       | sentence_1                                                                       | label                                                          |
+  |:--------|:---------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|:---------------------------------------------------------------|
+  | type    | string                                                                           | string                                                                           | float                                                          |
+  | details | <ul><li>min: 3 tokens</li><li>mean: 4.68 tokens</li><li>max: 11 tokens</li></ul> | <ul><li>min: 3 tokens</li><li>mean: 4.98 tokens</li><li>max: 11 tokens</li></ul> | <ul><li>min: 0.0</li><li>mean: 0.47</li><li>max: 1.0</li></ul> |
 * Samples:
-  | sentence_0          | sentence_1          | label            |
-  |:--------------------|:--------------------|:-----------------|
-  | <code>Mason</code>  | <code>Daphne</code> | <code>0.0</code> |
-  | <code>Jordan</code> | <code>Sadie</code>  | <code>0.0</code> |
-  | <code>Andre</code>  | <code>Cali</code>   | <code>0.0</code> |
+  | sentence_0          | sentence_1         | label            |
+  |:--------------------|:-------------------|:-----------------|
+  | <code>deepak</code> | <code>nitin</code> | <code>0.0</code> |
+  | <code>Walter</code> | <code>Jade</code>  | <code>0.0</code> |
+  | <code>rahul</code>  | <code>vikas</code> | <code>0.0</code> |
 * Loss: [<code>CosineSimilarityLoss</code>](https://sbert.net/docs/package_reference/sentence_transformer/losses.html#cosinesimilarityloss) with these parameters:
   ```json
   {
@@ -287,6 +287,15 @@ You can finetune this model on your own dataset.
 - `multi_dataset_batch_sampler`: round_robin
 
 </details>
+
+### Training Logs
+| Epoch  | Step | Training Loss |
+|:------:|:----:|:-------------:|
+| 2.2422 | 500  | 0.0266        |
+| 4.4843 | 1000 | 0.0122        |
+| 6.7265 | 1500 | 0.0087        |
+| 8.9686 | 2000 | 0.0069        |
+
 
 ### Framework Versions
 - Python: 3.11.0
