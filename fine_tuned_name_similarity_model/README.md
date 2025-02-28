@@ -4,49 +4,48 @@ tags:
 - sentence-similarity
 - feature-extraction
 - generated_from_trainer
-- dataset_size:99
+- dataset_size:202
 - loss:CosineSimilarityLoss
-base_model: sentence-transformers/all-MiniLM-L6-v2
 widget:
-- source_sentence: Eugene
+- source_sentence: Kevin
   sentences:
-  - Izzy
-  - Missy
-  - Gene
-- source_sentence: Michael
+  - Lucia
+  - Anne
+  - Stephen
+- source_sentence: Jordan
   sentences:
-  - Alex
-  - Joey
-  - Mike
-- source_sentence: Isabella
+  - April
+  - Sadie
+  - Gianna
+- source_sentence: Benjamin
   sentences:
-  - Ollie
-  - Debbie
-  - Bella
-- source_sentence: Annabelle
+  - Harper
+  - Danica
+  - Emily
+- source_sentence: Felix
   sentences:
-  - Sammy
-  - Anna
-  - Steph
-- source_sentence: Diane
+  - Elisa
+  - Charlotte
+  - Nina
+- source_sentence: Ethan
   sentences:
-  - Tommy
-  - Matt
-  - Diana
+  - Ava
+  - Eva
+  - Julia
 pipeline_tag: sentence-similarity
 library_name: sentence-transformers
 ---
 
-# SentenceTransformer based on sentence-transformers/all-MiniLM-L6-v2
+# SentenceTransformer
 
-This is a [sentence-transformers](https://www.SBERT.net) model finetuned from [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2). It maps sentences & paragraphs to a 384-dimensional dense vector space and can be used for semantic textual similarity, semantic search, paraphrase mining, text classification, clustering, and more.
+This is a [sentence-transformers](https://www.SBERT.net) model trained. It maps sentences & paragraphs to a 384-dimensional dense vector space and can be used for semantic textual similarity, semantic search, paraphrase mining, text classification, clustering, and more.
 
 ## Model Details
 
 ### Model Description
 - **Model Type:** Sentence Transformer
-- **Base model:** [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) <!-- at revision fa97f6e7cb1a59073dff9e6b13e2715cf7475ac9 -->
-- **Maximum Sequence Length:** 256 tokens
+<!-- - **Base model:** [Unknown](https://huggingface.co/unknown) -->
+- **Maximum Sequence Length:** 128 tokens
 - **Output Dimensionality:** 384 dimensions
 - **Similarity Function:** Cosine Similarity
 <!-- - **Training Dataset:** Unknown -->
@@ -63,9 +62,8 @@ This is a [sentence-transformers](https://www.SBERT.net) model finetuned from [s
 
 ```
 SentenceTransformer(
-  (0): Transformer({'max_seq_length': 256, 'do_lower_case': False}) with Transformer model: BertModel 
+  (0): Transformer({'max_seq_length': 128, 'do_lower_case': False}) with Transformer model: BertModel 
   (1): Pooling({'word_embedding_dimension': 384, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False, 'pooling_mode_weightedmean_tokens': False, 'pooling_mode_lasttoken': False, 'include_prompt': True})
-  (2): Normalize()
 )
 ```
 
@@ -87,9 +85,9 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer("sentence_transformers_model_id")
 # Run inference
 sentences = [
-    'Diane',
-    'Diana',
-    'Matt',
+    'Ethan',
+    'Ava',
+    'Julia',
 ]
 embeddings = model.encode(sentences)
 print(embeddings.shape)
@@ -143,19 +141,19 @@ You can finetune this model on your own dataset.
 
 #### Unnamed Dataset
 
-* Size: 99 training samples
+* Size: 202 training samples
 * Columns: <code>sentence_0</code>, <code>sentence_1</code>, and <code>label</code>
-* Approximate statistics based on the first 99 samples:
+* Approximate statistics based on the first 202 samples:
   |         | sentence_0                                                                      | sentence_1                                                                      | label                                                           |
   |:--------|:--------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|:----------------------------------------------------------------|
   | type    | string                                                                          | string                                                                          | float                                                           |
-  | details | <ul><li>min: 3 tokens</li><li>mean: 3.01 tokens</li><li>max: 4 tokens</li></ul> | <ul><li>min: 3 tokens</li><li>mean: 3.02 tokens</li><li>max: 4 tokens</li></ul> | <ul><li>min: 0.7</li><li>mean: 0.83</li><li>max: 0.94</li></ul> |
+  | details | <ul><li>min: 3 tokens</li><li>mean: 3.02 tokens</li><li>max: 4 tokens</li></ul> | <ul><li>min: 3 tokens</li><li>mean: 3.21 tokens</li><li>max: 5 tokens</li></ul> | <ul><li>min: 0.0</li><li>mean: 0.09</li><li>max: 0.95</li></ul> |
 * Samples:
-  | sentence_0             | sentence_1         | label             |
-  |:-----------------------|:-------------------|:------------------|
-  | <code>Annabelle</code> | <code>Anna</code>  | <code>0.9</code>  |
-  | <code>Kenneth</code>   | <code>Kenny</code> | <code>0.82</code> |
-  | <code>Thomas</code>    | <code>Tom</code>   | <code>0.9</code>  |
+  | sentence_0          | sentence_1          | label            |
+  |:--------------------|:--------------------|:-----------------|
+  | <code>Mason</code>  | <code>Daphne</code> | <code>0.0</code> |
+  | <code>Jordan</code> | <code>Sadie</code>  | <code>0.0</code> |
+  | <code>Andre</code>  | <code>Cali</code>   | <code>0.0</code> |
 * Loss: [<code>CosineSimilarityLoss</code>](https://sbert.net/docs/package_reference/sentence_transformer/losses.html#cosinesimilarityloss) with these parameters:
   ```json
   {
@@ -166,8 +164,7 @@ You can finetune this model on your own dataset.
 ### Training Hyperparameters
 #### Non-Default Hyperparameters
 
-- `per_device_train_batch_size`: 16
-- `per_device_eval_batch_size`: 16
+- `num_train_epochs`: 10
 - `multi_dataset_batch_sampler`: round_robin
 
 #### All Hyperparameters
@@ -177,8 +174,8 @@ You can finetune this model on your own dataset.
 - `do_predict`: False
 - `eval_strategy`: no
 - `prediction_loss_only`: True
-- `per_device_train_batch_size`: 16
-- `per_device_eval_batch_size`: 16
+- `per_device_train_batch_size`: 8
+- `per_device_eval_batch_size`: 8
 - `per_gpu_train_batch_size`: None
 - `per_gpu_eval_batch_size`: None
 - `gradient_accumulation_steps`: 1
@@ -190,7 +187,7 @@ You can finetune this model on your own dataset.
 - `adam_beta2`: 0.999
 - `adam_epsilon`: 1e-08
 - `max_grad_norm`: 1
-- `num_train_epochs`: 3
+- `num_train_epochs`: 10
 - `max_steps`: -1
 - `lr_scheduler_type`: linear
 - `lr_scheduler_kwargs`: {}

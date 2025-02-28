@@ -1,102 +1,204 @@
-Name1	Name2	Similarity
-Jon	Jonathan	0.8
-Alice	Alicia	0.85
-Robert	Rob	0.75
-Michael	Mike	0.78
-William	Will	0.82
-Katherine	Kate	0.88
-Christopher	Chris	0.9
-Alexander	Alex	0.86
-Elizabeth	Liz	0.84
-Benjamin	Ben	0.89
-Jennifer	Jenny	0.83
-Samuel	Sam	0.91
-Jessica	Jessie	0.77
-Matthew	Matt	0.92
-Daniel	Dan	0.88
-Nathan	Nate	0.8
-Rebecca	Becky	0.79
-Kimberly	Kim	0.9
-Patricia	Pat	0.72
-Theodore	Ted	0.74
-Thomas	Tom	0.9
-Catherine	Cathy	0.81
-Jonathan	John	0.76
-Victoria	Vicky	0.79
-Andrew	Drew	0.83
-Charlotte	Charlie	0.78
-Jacqueline	Jackie	0.85
-Nicholas	Nick	0.92
-Isabella	Bella	0.8
-Stephanie	Steph	0.83
-Edward	Ed	0.79
-Joseph	Joe	0.91
-Alexander	Xander	0.76
-Madeleine	Maddy	0.86
-Anthony	Tony	0.77
-Cynthia	Cindy	0.74
-Gabrielle	Gabby	0.83
-Diane	Diana	0.87
-Francis	Frank	0.85
-Leonard	Leo	0.79
-Jeremy	Jerry	0.82
-Julian	Jules	0.81
-Barbara	Barb	0.7
-Harold	Harry	0.76
-Christina	Tina	0.82
-Margaret	Maggie	0.88
-Eleanor	Ellie	0.84
-Jonathan	Jonny	0.83
-Lawrence	Larry	0.75
-Jessica	Jess	0.9
-Caroline	Carrie	0.85
-Steven	Steve	0.92
-Deborah	Debbie	0.86
-Eugene	Gene	0.74
-Gerald	Jerry	0.79
-Benedict	Ben	0.81
-Oliver	Ollie	0.8
-Annabelle	Anna	0.9
-Jefferson	Jeff	0.78
-Frederick	Fred	0.82
-Susan	Sue	0.73
-Domenic	Dom	0.89
-Philip	Phil	0.9
-Leonardo	Leo	0.85
-Valerie	Val	0.81
-Joanna	Jo	0.78
-Nicholas	Nico	0.83
-Timothy	Tim	0.92
-Isabelle	Izzy	0.8
-Gregory	Greg	0.9
-Sylvester	Sly	0.77
-Bernard	Bernie	0.86
-Patrick	Rick	0.7
-Abigail	Abby	0.88
-Benjamin	Benny	0.84
-Jonathan	Nathan	0.72
-Christine	Christy	0.86
-Kenneth	Kenny	0.82
-Melissa	Missy	0.8
-Franklin	Frank	0.92
-Dominic	Dom	0.89
-Robert	Bobby	0.78
-Michael	Mickey	0.75
-Terence	Terry	0.81
-Jessica	Jess	0.92
-Jacqueline	Jackie	0.89
-Samuel	Sammy	0.85
-Catherine	Kat	0.8
-Victoria	Tori	0.78
-Daniel	Danny	0.92
-Gerald	Gerry	0.77
-Edward	Teddy	0.72
-Lucas	Luke	0.91
-Christian	Chris	0.94
-Brandon	Bran	0.76
-Gregory	Gregg	0.88
-Joseph	Joey	0.84
-Thomas	Tommy	0.9
-Elizabeth	Beth	0.79
-jaycob	rahul	0.0
-rahul	jcob 	0.0
+Name1,Name2,Similarity
+John,Jon,0.95
+Michael,Mike,0.90
+Rachel,Raquel,0.85
+Catherine,Katherine,0.88
+Steven,Stephen,0.92
+Ann,Anne,0.93
+Robert,Bob,0.89
+William,Will,0.87
+Chris,Kristopher,0.80
+Sarah,Sara,0.94
+Jessica,Jessie,0.85
+Mark,Marc,0.82
+Daniel,Danielle,0.60
+Erik,Eric,0.78
+Tom,Thomas,0.76
+Emily,Emma,0.55
+Jacob,Jake,0.58
+Lindsay,Lindsey,0.51
+Kaitlyn,Caitlin,0.48
+Jared,Jerry,0.45
+Sophia,Sophie,0.42
+David,Devin,0.39
+Ava,Eva,0.37
+Tyler,Taylor,0.35
+Brianna,Brian,0.30
+Kevin,Kelvin,0.28
+Jason,Jaxon,0.25
+Michael,Olivia,0.10
+David,Jackson,0.05
+Sophia,Olivia,0.00
+Liam,Emma,0.00
+Ethan,Ava,0.00
+Jacob,Emily,0.00
+Daniel,Isabella,0.00
+Alexander,James,0.00
+Matthew,Charlotte,0.00
+Lucas,Madison,0.00
+Henry,Evelyn,0.00
+John,Samantha,0.0
+Michael,Olivia,0.0
+David,Emma,0.0
+Sophia,James,0.0
+Daniel,Isabella,0.0
+Alexander,Charlotte,0.0
+Matthew,Madison,0.0
+Lucas,Evelyn,0.0
+Henry,Abigail,0.0
+Joseph,Harper,0.0
+Samuel,Scarlett,0.0
+Sebastian,Eleanor,0.0
+Gabriel,Elizabeth,0.0
+Carter,Amelia,0.0
+Owen,Chloe,0.0
+Wyatt,Lily,0.0
+Julian,Aubrey,0.0
+Hudson,Natalie,0.0
+Jack,Grace,0.0
+Levi,Zoe,0.0
+Isaac,Stella,0.0
+Grayson,Violet,0.0
+Leo,Lillian,0.0
+Lincoln,Hannah,0.0
+Oliver,Lucy,0.0
+Theodore,Ellie,0.0
+Aaron,Mila,0.0
+Ryan,Nora,0.0
+Caleb,Skylar,0.0
+Nathan,Leah,0.0
+Hunter,Addison,0.0
+Eli,Savannah,0.0
+Landon,Brooklyn,0.0
+Jonathan,Victoria,0.0
+Christian,Hazel,0.0
+Adrian,Aria,0.0
+Cameron,Aurora,0.0
+Thomas,Penelope,0.0
+Jordan,Sadie,0.0
+Nicholas,Josephine,0.0
+Evan,Allison,0.0
+Connor,Samantha,0.0
+Jeremiah,Autumn,0.0
+Angel,Piper,0.0
+Brayden,Clara,0.0
+Ian,Ruby,0.0
+Dominic,Eva,0.0
+Adam,Serenity,0.0
+Parker,Willow,0.0
+Jaxon,Eliana,0.0
+Jose,Kennedy,0.0
+Nathaniel,Ariana,0.0
+Tyler,Lydia,0.0
+Zachary,Delilah,0.0
+Kevin,Nevaeh,0.0
+Mason,Sophie,0.0
+Dylan,Caroline,0.0
+Anthony,Genesis,0.0
+Jason,Alyssa,0.0
+Xavier,Isla,0.0
+Miles,Melanie,0.0
+Easton,Naomi,0.0
+Cooper,Katherine,0.0
+Brody,Athena,0.0
+Colton,Brielle,0.0
+Brandon,Kaylee,0.0
+Asher,Cecilia,0.0
+Kai,Iris,0.0
+Juan,Hadley,0.0
+Chase,Marley,0.0
+Diego,Adeline,0.0
+Alex,Eliza,0.0
+Santiago,June,0.0
+Max,Freya,0.0
+Eric,Sienna,0.0
+Elias,Alina,0.0
+Tristan,Daisy,0.0
+Gavin,Josie,0.0
+Victor,Makenna,0.0
+Derek,Reese,0.0
+Luca,Amy,0.0
+George,Fiona,0.0
+Dean,Angela,0.0
+Andre,Cali,0.0
+Malachi,Elise,0.0
+Harrison,Noelle,0.0
+Weston,Emersyn,0.0
+Simon,Maggie,0.0
+Jake,Harley,0.0
+Bradley,Tessa,0.0
+Aaron,Madeline,0.0
+Brandon,Julia,0.0
+Caleb,Clara,0.0
+Damian,Sadie,0.0
+Ethan,Lauren,0.0
+Finn,Kaitlyn,0.0
+George,Miranda,0.0
+Hunter,Isabelle,0.0
+Isaiah,Melody,0.0
+Jacob,Catherine,0.0
+Kevin,Lucia,0.0
+Landon,Elliana,0.0
+Mason,Daphne,0.0
+Nathan,Kendra,0.0
+Owen,Fiona,0.0
+Patrick,Brianna,0.0
+Quentin,Lacey,0.0
+Ryan,Sienna,0.0
+Samuel,Natalia,0.0
+Travis,Ruby,0.0
+Victor,Anastasia,0.0
+Wesley,Valerie,0.0
+Xavier,Tessa,0.0
+Zachary,Alison,0.0
+Adam,Marina,0.0
+Benjamin,Danica,0.0
+Cameron,Kyla,0.0
+Derek,Arielle,0.0
+Edward,Raelyn,0.0
+Felix,Elisa,0.0
+Gideon,Angela,0.0
+Harrison,Estelle,0.0
+Ian,Celine,0.0
+Jason,Kiera,0.0
+Kyle,Gianna,0.0
+Liam,April,0.0
+Miles,Athena,0.0
+Nolan,Daniella,0.0
+Oscar,Hallie,0.0
+Preston,Lilian,0.0
+Reed,Nina,0.0
+Shane,Tiana,0.0
+Tanner,Vivienne,0.0
+Ulysses,Serena,0.0
+Vance,Ellen,0.0
+Wyatt,Amanda,0.0
+Xander,Jillian,0.0
+Yusuf,Lorelei,0.0
+Zane,Monica,0.0
+Alan,Genevieve,0.0
+Brody,Heidi,0.0
+Connor,Bethany,0.0
+Declan,Camila,0.0
+Elliot,Maeve,0.0
+Franklin,Avery,0.0
+Grayson,Holly,0.0
+Hudson,Leilani,0.0
+Isaac,Selena,0.0
+Jeremiah,Naomi,0.0
+Keith,Dahlia,0.0
+Leonard,Joanna,0.0
+Mitchell,Cassidy,0.0
+Nicolas,Allison,0.0
+Omar,Evie,0.0
+Paul,Esme,0.0
+Quincy,Rosalie,0.0
+Ronan,Delaney,0.0
+Silas,Harley,0.0
+Timothy,Carmen,0.0
+Ulrich,Leslie,0.0
+Vince,Marie,0.0
+Walter,Jade,0.0
+Xeno,Kayla,0.0
+Yahir,Adalyn,0.0
+
