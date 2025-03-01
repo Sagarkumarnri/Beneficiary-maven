@@ -4,34 +4,34 @@ tags:
 - sentence-similarity
 - feature-extraction
 - generated_from_trainer
-- dataset_size:3989
+- dataset_size:5050
 - loss:CosineSimilarityLoss
 widget:
-- source_sentence: Umang Kumar
+- source_sentence: Sagar
   sentences:
-  - Viren Kumar
-  - Sunil Nair
-  - Falguni
-- source_sentence: Tejas
+  - Joseph Wright
+  - Girish
+  - Ms. Sophia Martinez
+- source_sentence: Dylan
   sentences:
-  - Apple Inc.
-  - Smita
-  - Rohit Paints
-- source_sentence: Rajat Kapoor
+  - Arjun Motors
+  - Audrey
+  - Ekam
+- source_sentence: Rina Choudhary
   sentences:
-  - Sagar Inc.
-  - David R. Thompson
-  - Rajat Khanna
-- source_sentence: Carter Shaw
+  - Rina Chemicals
+  - Julian Hughes IV
+  - Green Valley Realty
+- source_sentence: daniel
   sentences:
-  - Lydia Shaw
-  - Nitin Kumar
-  - Antonio Serrano Jr.
-- source_sentence: Alice Miller
+  - Ariana
+  - alex
+  - Kiran Malhotra Sr.
+- source_sentence: Vijay
   sentences:
-  - Alice Miller Ltd
-  - Yash Sharma
-  - Priyanka
+  - Gayatri
+  - Vijayy
+  - Sneha Motors
 pipeline_tag: sentence-similarity
 library_name: sentence-transformers
 ---
@@ -85,9 +85,9 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer("sentence_transformers_model_id")
 # Run inference
 sentences = [
-    'Alice Miller',
-    'Alice Miller Ltd',
-    'Yash Sharma',
+    'Vijay',
+    'Vijayy',
+    'Sneha Motors',
 ]
 embeddings = model.encode(sentences)
 print(embeddings.shape)
@@ -141,19 +141,19 @@ You can finetune this model on your own dataset.
 
 #### Unnamed Dataset
 
-* Size: 3,989 training samples
+* Size: 5,050 training samples
 * Columns: <code>sentence_0</code>, <code>sentence_1</code>, and <code>label</code>
 * Approximate statistics based on the first 1000 samples:
   |         | sentence_0                                                                       | sentence_1                                                                       | label                                                         |
   |:--------|:---------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|:--------------------------------------------------------------|
   | type    | string                                                                           | string                                                                           | float                                                         |
-  | details | <ul><li>min: 3 tokens</li><li>mean: 4.49 tokens</li><li>max: 11 tokens</li></ul> | <ul><li>min: 3 tokens</li><li>mean: 5.07 tokens</li><li>max: 10 tokens</li></ul> | <ul><li>min: 0.0</li><li>mean: 0.4</li><li>max: 1.0</li></ul> |
+  | details | <ul><li>min: 3 tokens</li><li>mean: 4.41 tokens</li><li>max: 10 tokens</li></ul> | <ul><li>min: 3 tokens</li><li>mean: 4.92 tokens</li><li>max: 11 tokens</li></ul> | <ul><li>min: 0.0</li><li>mean: 0.4</li><li>max: 1.0</li></ul> |
 * Samples:
-  | sentence_0           | sentence_1                  | label            |
-  |:---------------------|:----------------------------|:-----------------|
-  | <code>Patrick</code> | <code>Patrick Turner</code> | <code>0.8</code> |
-  | <code>Varun</code>   | <code>Lavanya</code>        | <code>0.0</code> |
-  | <code>Tanmay</code>  | <code>Siddharth</code>      | <code>0.0</code> |
+  | sentence_0               | sentence_1                | label            |
+  |:-------------------------|:--------------------------|:-----------------|
+  | <code>Adam Ross</code>   | <code>Cameron Ross</code> | <code>0.0</code> |
+  | <code>Brooks</code>      | <code>Naomi</code>        | <code>0.0</code> |
+  | <code>Rohit Verma</code> | <code>Rohit Realty</code> | <code>0.0</code> |
 * Loss: [<code>CosineSimilarityLoss</code>](https://sbert.net/docs/package_reference/sentence_transformer/losses.html#cosinesimilarityloss) with these parameters:
   ```json
   {
@@ -291,15 +291,18 @@ You can finetune this model on your own dataset.
 ### Training Logs
 | Epoch  | Step | Training Loss |
 |:------:|:----:|:-------------:|
-| 1.0020 | 500  | 0.0432        |
-| 2.0040 | 1000 | 0.0223        |
-| 3.0060 | 1500 | 0.0163        |
-| 4.0080 | 2000 | 0.0135        |
-| 5.0100 | 2500 | 0.0112        |
-| 6.0120 | 3000 | 0.0092        |
-| 7.0140 | 3500 | 0.0083        |
-| 8.0160 | 4000 | 0.0074        |
-| 9.0180 | 4500 | 0.0069        |
+| 0.7911 | 500  | 0.0441        |
+| 1.5823 | 1000 | 0.0224        |
+| 2.3734 | 1500 | 0.0177        |
+| 3.1646 | 2000 | 0.0131        |
+| 3.9557 | 2500 | 0.0123        |
+| 4.7468 | 3000 | 0.0098        |
+| 5.5380 | 3500 | 0.009         |
+| 6.3291 | 4000 | 0.008         |
+| 7.1203 | 4500 | 0.0071        |
+| 7.9114 | 5000 | 0.0069        |
+| 8.7025 | 5500 | 0.0064        |
+| 9.4937 | 6000 | 0.0059        |
 
 
 ### Framework Versions
