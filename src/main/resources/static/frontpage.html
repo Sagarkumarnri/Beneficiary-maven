@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beneficiary Name Check</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #222;
+        }
+        h2 {
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        input {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            max-width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .response-container {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            display: inline-block;
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .red { background-color: #ff4d4d; color: white; }
+        .orange { background-color: #ffa500; color: white; }
+        .yellow { background-color: #ffff66; color: black; }
+        .green { background-color: #28a745; color: white; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Beneficiary Name Check Application</h1>
+        <h2>Please enter the given name and actual name to check the match percentage</h2>
+        <input type="text" id="givenName" placeholder="Enter given name">
+        <input type="text" id="actualName" placeholder="Enter actual name">
+        <button onclick="callApi()">Check Match</button>
+    </div>
+    <div id="response" class="response-container"></div>
+    <script src="frontpage.js"></script>
+</body>
+</html>

@@ -13,18 +13,26 @@ public class NameSimilarityController {
 
     @PostMapping("/similarity")
     public String checkSimilarity(@RequestBody NameRequest request) {
-        return nameSimilarityService.getSimilarity(request.getName1(), request.getName2());
+        return nameSimilarityService.getSimilarity(request.getGivenName(), request.getActualName ());
     }
 }
 
 // DTO class
 class NameRequest {
-    private String name1;
-    private String name2;
+    public String getGivenName() {
+		return givenName;
+	}
+	public void setGivenName(String givenName) {
+		this.givenName = givenName;
+	}
+	public String getActualName() {
+		return actualName;
+	}
+	public void setActualName(String actualName) {
+		this.actualName = actualName;
+	}
+	private String givenName;
+    private String actualName;
 
-    public String getName1() { return name1; }
-    public void setName1(String name1) { this.name1 = name1; }
-
-    public String getName2() { return name2; }
-    public void setName2(String name2) { this.name2 = name2; }
+   
 }

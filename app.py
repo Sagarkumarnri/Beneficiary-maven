@@ -23,7 +23,8 @@ def get_similarity(request: NamePair):
     # Compute Cosine Similarity
     similarity = np.dot(emb1, emb2) / (np.linalg.norm(emb1) * np.linalg.norm(emb2))
 
-    return {"similarity_percentage": round(float(similarity) * 100, 2)}
+    similarity_percentage = round(float(similarity) * 100, 2)
+    return {"similarity_percentage": similarity_percentage if similarity_percentage > 0 else 0}
 
 # Run API
 if __name__ == "__main__":
