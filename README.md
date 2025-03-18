@@ -21,4 +21,6 @@ curl --location 'http://localhost:8080/api/similarity' \
 }'
 
 pip install locust
+
+
  python -m locust -f apiLoadTesting.py --host=http://127.0.0.1:8000 
