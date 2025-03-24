@@ -1,7 +1,6 @@
 package com.benificiary.namecheck;
 
-import com.benificiary.namecheck.NameSimilarityService;
-import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -17,7 +16,7 @@ public class NameSimilarityController {
     }
 }
 
-// DTO class
+
 class NameRequest {
     public String getGivenName() {
 		return givenName;

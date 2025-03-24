@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benificiary Name Check</title>
+    <title>Beneficiary Name Check</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,12 +14,8 @@
             height: 100vh;
             background-color: #f4f4f4;
         }
-        h1 {
-            color: #222;
-        }
-        h2 {
-            color: #333;
-        }
+        h1 { color: #222; }
+        h2 { color: #333; }
         .container {
             background: white;
             padding: 20px;
@@ -49,9 +45,14 @@
             border-radius: 4px;
             cursor: pointer;
             font-size: 16px;
+            margin-top: 10px;
         }
-        button:hover {
-            background-color: #218838;
+        button:hover { background-color: #218838; }
+        .train-button {
+            background-color: #007bff;
+        }
+        .train-button:hover {
+            background-color: #0056b3;
         }
         .response-container {
             margin-top: 20px;
@@ -68,19 +69,42 @@
         .orange { background-color: #ffa500; color: white; }
         .yellow { background-color: #ffff66; color: black; }
         .green { background-color: #28a745; color: white; }
+    .loader {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #ffffff;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    animation: spin 1s linear infinite;
+    margin-left: 8px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
     </style>
 </head>
 <body>
-  
-    <div class="container">
-         <img src="logo.png" alt="Application Logo" class="logo"> 
-        <h1>Welcome to Benificiary Name Check Application</h1>
-        <h2>Please enter the given name and actual name to check the match percentage</h2>
-        <input type="text" id="givenName" placeholder="Enter given name">
-        <input type="text" id="actualName" placeholder="Enter actual name">
-        <button onclick="callApi()">Check Match</button>
-    </div>
-    <div id="response" class="response-container"></div>
-    <script src="frontpage.js"></script>
+
+<div class="container">
+    <img src="logo.png" alt="Application Logo" class="logo">
+    <h1>Welcome to Benificiary Name Check Application</h1>
+    <h2>Please enter the given name and actual name to check the match percentage</h2>
+
+    <input type="text" id="givenName" placeholder="Enter given name">
+    <input type="text" id="actualName" placeholder="Enter actual name">
+    <button onclick="callApi()">Check Match</button>
+
+    <h2>Train the Model</h2>
+
+    <button class="train-button" onclick="train()">Train Model</button>
+</div>
+
+<div id="response" class="response-container"></div>
+
+<script src="frontpage.js"></script>
 </body>
 </html>

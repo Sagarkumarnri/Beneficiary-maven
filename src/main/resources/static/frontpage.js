@@ -1,21 +1,33 @@
 function callApi() {
-    const givenName = document.getElementById("givenName").value;
-    const actualName = document.getElementById("actualName").value;
+    const givenName = document.getElementById("givenName").value.trim();
+    const actualName = document.getElementById("actualName").value.trim();
 
-    fetch("/api/similarity", {
+    if (!givenName || !actualName) {
+        alert("Please enter both given and actual names.");
+        return;
+    }
+
+    fetch("http://localhost:8080/api/similarity", {  // Use full API URL
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({ givenName, actualName })
     })
-    .then(response => response.json())
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+    })
     .then(data => {
         const responseElement = document.getElementById("response");
         responseElement.innerText = `Match Percentage: ${data.similarity_percentage}%`;
 
-        // Apply color based on percentage
+        // Reset previous color classes
         responseElement.className = "response-container";
+
+        // Apply color based on percentage
         if (data.similarity_percentage < 30) {
             responseElement.classList.add("red");
         } else if (data.similarity_percentage < 50) {
@@ -28,5 +40,35 @@ function callApi() {
     })
     .catch(error => {
         console.error("Error:", error);
+        alert("Failed to fetch match percentage. Please try again later.");
     });
 }
+ function train() {
+     const trainButton = document.querySelector(".train-button");
+     trainButton.innerHTML = "Training... <span class='loader'></span>";
+     trainButton.disabled = true;
+
+     fetch("http://localhost:8080/api/train", {
+         method: "POST",
+         headers: {
+             "Content-Type": "application/json"
+         }
+     })
+     .then(response => {
+         if (!response.ok) {
+             throw new Error(`HTTP error! Status: ${response.status}`);
+         }
+         return response.json();
+     })
+     .then(data => {
+         alert("Training Completed: " + data.message);
+     })
+     .catch(error => {
+         console.error("Training Error:", error);
+         alert("Training failed. Please try again.");
+     })
+     .finally(() => {
+         trainButton.innerHTML = "Train Model";
+         trainButton.disabled = false;
+     });
+ }
