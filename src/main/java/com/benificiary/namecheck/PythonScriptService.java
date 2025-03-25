@@ -8,10 +8,10 @@ public class PythonScriptService {
     private static final String PYTHON_PATH = "python";  // Change if needed
     private static final String SCRIPT_PATH = "C:\\idea\\Beneficiary-maven\\fine_tune.py";  // Update with actual path
 
-    public void runPythonScript( ) {
+    public String runPythonScript( ) {
         try {
             ProcessBuilder processBuilder = new ProcessBuilder(PYTHON_PATH, SCRIPT_PATH );
-            processBuilder.redirectErrorStream(true); // Merge stdout & stderr
+            processBuilder.redirectErrorStream(true);
 
             Process process = processBuilder.start();
 
@@ -24,10 +24,10 @@ public class PythonScriptService {
             }
 
             int exitCode = process.waitFor();
-            System.out.println("Python script exited with code: " + exitCode);
-
+            return "training completed";
         } catch (IOException | InterruptedException e) {
-            e.printStackTrace();
+             e.printStackTrace();
         }
+        return "training failed";
     }
 }
