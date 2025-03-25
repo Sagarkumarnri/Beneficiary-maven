@@ -21,9 +21,9 @@ public class PythonScriptController {
             // Save the uploaded file to a temporary location
 
             // Run the Python script with the uploaded file
-            pythonScriptService.runPythonScript( );
+           return  pythonScriptService.runPythonScript( );
 
-            return "✅ Training started! Check logs for details.";
+
         } catch (Exception e) {
             return "❌ Error saving file: " + e.getMessage();
         }

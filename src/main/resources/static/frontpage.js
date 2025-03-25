@@ -46,7 +46,7 @@ function callApi() {
  function train() {
      const trainButton = document.querySelector(".train-button");
      trainButton.innerHTML = "Training... <span class='loader'></span>";
-     trainButton.disabled = true;
+
 
      fetch("http://localhost:8080/api/train", {
          method: "POST",
@@ -55,9 +55,11 @@ function callApi() {
          }
      })
      .then(response => {
+  trainButton.innerHTML = "Train Model";
+ trainButton.disabled = false;
+         alert("Training completed success fully")
 
-        alert(response.data);
-     })
+     }).catch((e)=>alert('error'))
 
 
  }
