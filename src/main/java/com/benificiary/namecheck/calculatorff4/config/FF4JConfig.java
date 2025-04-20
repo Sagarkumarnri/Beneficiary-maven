@@ -10,6 +10,8 @@ import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import javax.sql.DataSource;
+
 @Configuration
 public class FF4JConfig {
 
@@ -23,7 +25,14 @@ public class FF4JConfig {
 
         return ff4j;
     }
-
+    @Bean
+    public FF4j ff4j(DataSource dataSource) {
+        FF4j ff4j = new FF4j();
+        ff4j.setFeatureStore(new FeatureStoreJdbc(dataSource));
+        ff4j.setPropertiesStore(new PropertyStoreJdbc(dataSource));
+        ff4j.audit(true);
+        return ff4j;
+    }
     @Bean
     public ServletRegistrationBean<FF4jDispatcherServlet> ff4jServlet(FF4j ff4j) {
         FF4jDispatcherServlet ff4jServlet = new FF4jDispatcherServlet();
